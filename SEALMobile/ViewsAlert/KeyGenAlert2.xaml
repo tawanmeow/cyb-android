@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xct:Popup
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+    x:Class="SEALMobile.ViewsAlert.KeyGenAlert2">
+    <ContentView  Background="#09a8ea">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+            <Image Source="cyblion_logo_icon___white.png"
+				   HeightRequest="136" WidthRequest="136"
+				   HorizontalOptions="Center"/>
+
+            <Label x:Name="you_will_override_your_keys"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="36"
+				   WidthRequest="284"
+					TextColor="#ffffff"
+				   HorizontalOptions="Center"
+					Text="YOU WILL OVERRIDE YOUR KEYS"
+				 />
+
+            <Label x:Name="are_you_sure_to_override_your_existing_keys_"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+				   HorizontalOptions="Center"
+				   Text="Are you sure to override your existing keys?"
+				 />
+
+            <Button Clicked="Button_Clicked"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalOptions="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					CornerRadius="30"
+					WidthRequest="280"
+					HeightRequest="60"
+					Text="CONFIRM"
+					BorderWidth="3"
+					BorderColor="#ffffff"/>
+        </StackLayout>
+    </ContentView>
+</xct:Popup>

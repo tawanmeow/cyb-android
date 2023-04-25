@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SEALMobile.Views.KeyDetail"
+	NavigationPage.HasNavigationBar="True"
+	NavigationPage.HasBackButton="True">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+            <Image Source="cyblion___neo_logo_horizontal___main.png" />
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="#e4e4e4">
+            <ScrollView>
+                <StackLayout Padding="40" HorizontalOptions="Center">
+
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout>
+                            <Label 
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								FontSize="24"
+								TextColor="#000000"
+								Text="KEYS SET"
+								/>
+                            <Image 
+								Source="line_11_ek3.png"
+								HorizontalOptions="Start"/>
+                            <Label 
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								FontSize="12"
+								TextColor="#000000"
+								Text="{Binding projectname}"
+								/>
+                        </StackLayout>
+
+                        <Image Source="cyblion___neo___keys___black.png"
+							   VerticalOptions="Center" HorizontalOptions="EndAndExpand" />
+                    </StackLayout>
+
+
+
+
+
+                    <StackLayout x:Name="detail" 
+							 VerticalOptions="CenterAndExpand"
+							 Margin="0,20"
+							 >
+
+                        <Label x:Name="key_details"
+									FontFamily="Red Hat Display"
+									FontSize="12"
+									TextColor="#000000"
+									Margin="0,10"
+									Text="KEYS DETAILS"
+									/>
+                        <StackLayout Orientation="Horizontal" HeightRequest="60">
+                            <Label 
+										FontFamily="Red Hat Display"
+										FontSize="16"
+										TextColor="#000000"
+										WidthRequest="120"
+										Text="Key Context :"
+										/>
+                            <Label x:Name="KeyCode"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="16"
+										TextColor="#000000"
+										HorizontalOptions="FillAndExpand"
+										/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HeightRequest="60">
+                            <Label
+										FontFamily="Red Hat Display"
+										FontSize="16"
+										TextColor="#000000"
+										Text="Public Key :"
+										WidthRequest="120"
+										/>
+                            <Label x:Name="PublicKey"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="16"
+										HorizontalOptions="FillAndExpand"
+										TextColor="#000000"
+										/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HeightRequest="60">
+                            <Label
+										FontFamily="Red Hat Display"
+										FontSize="16"
+										TextColor="#000000"
+										Text="Private Key :"
+										WidthRequest="120"
+										/>
+                            <Label x:Name="PrivateKey"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="16"
+										HorizontalOptions="FillAndExpand"
+										TextColor="#000000"
+										/>
+                        </StackLayout>
+						<StackLayout Orientation="Horizontal" HeightRequest="60">
+                            <Label
+										FontFamily="Red Hat Display"
+										FontSize="16"
+										TextColor="#000000"
+										Text="Relinearize Key :"
+										WidthRequest="120"
+										/>
+                            <Label x:Name="RelinearKey"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="16"
+										HorizontalOptions="FillAndExpand"
+										TextColor="#000000"
+										/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <StackLayout Margin="0,100" HorizontalOptions="Center" VerticalOptions="EndAndExpand">
+
+
+                        <Button x:Name="override_keys"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="20"
+							CornerRadius="26"
+							BackgroundColor="#000000"
+							WidthRequest="285" HeightRequest="52"
+							TextColor="#ffffff"
+							HorizontalOptions="Center"
+							Text="OVERRIDE KEYS"
+							Clicked="Handle_Override"
+						/>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </ScrollView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
+

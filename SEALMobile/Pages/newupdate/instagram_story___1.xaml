@@ -1,0 +1,520 @@
+<ContentPage x:Class="SEALMobile.instagram_story___1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="instagram_story___1">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<Image x:Name="cyblion_logo_hor___main_ek3"
+				Source="cyblion_logo_hor___main_ek3.png"
+				AbsoluteLayout.LayoutBounds="140,30.91,188,73.18" />
+			<Label x:Name="h2___red_hat_display__semibold__20px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="20"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,246,431,40"
+				Text="H2 / Red Hat Display -SemiBold- 20px"
+			 />
+			<Label x:Name="button_1___red_hat_display__bold__20px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="20"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,558,496,40"
+				Text="BUTTON 1 / RED HAT DISPLAY -Bold- 20px"
+			 />
+			<Label x:Name="sub_h2___red_hat_display__black__12px"
+				FontFamily="Red Hat Display"
+				FontSize="12"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,405,298,24"
+				Text="SUB H2 / RED HAT DISPLAY -BLACK- 12px"
+			 />
+			<Label x:Name="h3___red_hat_display__regular__20px"
+				FontFamily="Red Hat Display"
+				FontSize="20"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,299,404,40"
+				Text="H3 / Red Hat Display -Regular- 20px"
+			 />
+			<Label x:Name="sub_h4___red_hat_display__bold__10px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="10"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,513,222,20"
+				Text="SUB H4 / Red Hat Display -Bold- 10px"
+			 />
+			<Label x:Name="sub_h3___red_hat_display__bold__12px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="12"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,459,266,24"
+				Text="SUB H3 / RED HAT DISPLAY -BOLD- 12px"
+			 />
+			<Label x:Name="button_3___red_hat_display__bold__10px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="10"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,670,258,20"
+				Text="BUTTON 3 / RED HAT DISPLAY -BOLD- 10px"
+			 />
+			<Label x:Name="button_2___red_hat_display__bold__12px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="12"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,616,284,24"
+				Text="BUTTON 2 / RED HAT DISPLAY -BOLD- 12px"
+			 />
+			<Label x:Name="sub_h1___red_hat_display__bold__16px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="16"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,352,350,32"
+				Text="SUB H1 / RED HAT DISPLAY -BOLD- 16px"
+			 />
+			<Label x:Name="body1___red_hat_display__semibold__8px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="8"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,724,160,16"
+				Text="Body1 / Red Hat Display -SemiBold- 8px"
+			 />
+			<Label x:Name="underline_text___red_hat_display__extrabold__6px"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="6"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,777,202,12"
+				Text="UNDERLINE TEXT / RED HAT DISPLAY -EXTRABOLD- 6px"
+			 />
+			<Label x:Name="h1___red_hat_display__semibold__24px_"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="24"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,188,517,48"
+				Text="H1 / Red Hat Display -SemiBold- 24px "
+			 />
+			<Label x:Name="s1___red_hat_display__semibold__36px_"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="36"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="276,132,770,73"
+				Text="S1 / Red Hat Display -SemiBold- 36px "
+			 />
+
+			<AbsoluteLayout x:Name="group_173"
+				 AbsoluteLayout.LayoutBounds="140,198,120,20"
+				 >
+
+				<Image x:Name="rectangle_54"
+					Source="rectangle_54.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="page_topic"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,84,24"
+					Text="Page Topic"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_175"
+				 AbsoluteLayout.LayoutBounds="140,251,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek1"
+					Source="rectangle_54_ek1.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="sub_splash_text"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,117,24"
+					Text="Sub Splash Text"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_176"
+				 AbsoluteLayout.LayoutBounds="140,303,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek2"
+					Source="rectangle_54_ek2.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="text_form"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,77,24"
+					Text="Text Form"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_177"
+				 AbsoluteLayout.LayoutBounds="140,356,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek3"
+					Source="rectangle_54_ek3.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="page_sub_topic"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,114,24"
+					Text="Page Sub Topic"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_181"
+				 AbsoluteLayout.LayoutBounds="140,461,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek4"
+					Source="rectangle_54_ek4.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="object_name"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,98,24"
+					Text="Object Name"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_182"
+				 AbsoluteLayout.LayoutBounds="140,513,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek5"
+					Source="rectangle_54_ek5.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="status"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,54,24"
+					Text="Status"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_179"
+				 AbsoluteLayout.LayoutBounds="140,408,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek6"
+					Source="rectangle_54_ek6.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="text_form_topic"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,117,24"
+					Text="Text Form Topic"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_178"
+				 AbsoluteLayout.LayoutBounds="140,565,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek7"
+					Source="rectangle_54_ek7.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="button_l"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,69,24"
+					Text="Button L"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_180"
+				 AbsoluteLayout.LayoutBounds="140,670,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek8"
+					Source="rectangle_54_ek8.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="button_s__nav"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,109,24"
+					Text="Button S /NAV"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_185"
+				 AbsoluteLayout.LayoutBounds="140,618,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek9"
+					Source="rectangle_54_ek9.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="button_m"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,72,24"
+					Text="Button M"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_183"
+				 AbsoluteLayout.LayoutBounds="140,723,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek10"
+					Source="rectangle_54_ek10.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="body_text"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,78,24"
+					Text="Body Text"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_184"
+				 AbsoluteLayout.LayoutBounds="140,775,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek11"
+					Source="rectangle_54_ek11.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="short_details"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,99,24"
+					Text="Short Details"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_174"
+				 AbsoluteLayout.LayoutBounds="140,146,120,20"
+				 >
+
+				<Image x:Name="rectangle_54_ek12"
+					Source="rectangle_54_ek12.png"
+					AbsoluteLayout.LayoutBounds="0,0,120,20" />
+				<Label x:Name="splash_text"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#e4e4e4"
+					AbsoluteLayout.LayoutBounds="7,-2,88,24"
+					Text="Splash Text"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="color_modules"
+				 AbsoluteLayout.LayoutBounds="140,977,256,209"
+				 >
+
+				<Image x:Name="rectangle_2"
+					Source="rectangle_2.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,274,227" />
+				<Label x:Name="deep_black__000000"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#ededed"
+					AbsoluteLayout.LayoutBounds="102,134,130,64"
+					Text="Deep Black
+#000000"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="color_modules_ek1"
+				 AbsoluteLayout.LayoutBounds="140,1216,256,209"
+				 >
+
+				<Image x:Name="rectangle_2_ek1"
+					Source="rectangle_2_ek1.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,274,227" />
+				<Label x:Name="basic_white__ffffff"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="97,134,135,64"
+					Text="Basic White
+#FFFFFF"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="color_modules_ek2"
+				 AbsoluteLayout.LayoutBounds="412,977,256,209"
+				 >
+
+				<Image x:Name="path_1"
+					Source="path_1.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,274,227" />
+				<Label x:Name="silver__b0aeaf"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#ededed"
+					AbsoluteLayout.LayoutBounds="118,134,114,64"
+					Text="Silver
+#B0AEAF"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="color_modules_ek3"
+				 AbsoluteLayout.LayoutBounds="684,1216,256,209"
+				 >
+
+				<Image x:Name="path_1_ek1"
+					Source="path_1_ek1.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,274,227" />
+				<Label x:Name="dull__e4e4e4"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="121,134,111,64"
+					Text="Dull
+#E4E4E4"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="color_modules_ek4"
+				 AbsoluteLayout.LayoutBounds="684,977,256,209"
+				 >
+
+				<Image x:Name="rectangle_2_ek2"
+					Source="rectangle_2_ek2.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,274,227" />
+				<Label x:Name="techno_sky__09a8ea"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#ededed"
+					AbsoluteLayout.LayoutBounds="100,134,132,64"
+					Text="Techno Sky
+#09A8EA"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="color_modules_ek5"
+				 AbsoluteLayout.LayoutBounds="412,1216,256,209"
+				 >
+
+				<Image x:Name="rectangle_2_ek3"
+					Source="rectangle_2_ek3.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,274,227" />
+				<Label x:Name="husky_white__ededed"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="88,134,144,64"
+					Text="Husky White
+#EDEDED"
+				 />
+			</AbsoluteLayout>
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

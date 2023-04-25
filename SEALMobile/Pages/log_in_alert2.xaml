@@ -1,0 +1,115 @@
+<ContentPage x:Class="SEALMobile.log_in_alert2"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="log_in___alert2">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__log_in___alert2"
+				Color="#e4e4e4"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+			<Image x:Name="cyblion_logo_hor___main"
+				Source="cyblion_logo_hor___main.png"
+				AbsoluteLayout.LayoutBounds="21,11.91,165,64.22" />
+
+			<AbsoluteLayout x:Name="group_3"
+				 AbsoluteLayout.LayoutBounds="38,197,284,62"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_2"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+					<Image x:Name="line_2"
+						Source="line_2.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+					<Label x:Name="test1234"
+						FontFamily="Red Hat Display"
+						FontSize="20"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="0,-4,107,40"
+						Text="Test1234"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="username"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="0,-4,89,24"
+					Text="USERNAME"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_4"
+				 AbsoluteLayout.LayoutBounds="38,291,284,62"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_2_ek1"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+					<Image x:Name="line_2_ek1"
+						Source="line_2_ek1.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+					<Label x:Name="___________"
+						FontFamily="Red Hat Display"
+						FontSize="20"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="0,-4,122,40"
+						Text="**********"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="password"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="0,-4,90,24"
+					Text="PASSWORD"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="primary_button"
+				 AbsoluteLayout.LayoutBounds="38,593,284,52"
+				 >
+
+				<BoxView x:Name="rectangle_5"
+					CornerRadius="26"
+					Color="#000000"
+					AbsoluteLayout.LayoutBounds="0,0,284,52" />
+				<Label x:Name="log_in"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="59,9,165,40"
+					Text="LOG IN"
+				 />
+			</AbsoluteLayout>
+
+			<Label x:Name="your_username_is_not_in_whitelist_please_contact_netpie_"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				HorizontalTextAlignment="Center"
+				FontSize="16"
+				TextColor="#df0000"
+				AbsoluteLayout.LayoutBounds="35,492,289,78"
+				Text="Your username
+is not in whitelist
+please contact Netpie."
+			 />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

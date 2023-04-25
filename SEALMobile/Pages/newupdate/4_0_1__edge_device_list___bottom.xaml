@@ -1,0 +1,209 @@
+<ContentPage x:Class="SEALMobile.4_0_1__edge_device_list___bottom"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="4_0_1__edge_device_list___bottom">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_207"
+				 AbsoluteLayout.LayoutBounds="0,0,360,760"
+				 >
+
+				<Image x:Name="rectangle_59"
+					Source="rectangle_59.png"
+					AbsoluteLayout.LayoutBounds="0,0,360,760" />
+				<Image x:Name="scroll_group_4"
+					Source="scroll_group_4.png"
+					AbsoluteLayout.LayoutBounds="38,0,284,626" />
+				<Label x:Name="maximum_to_10_edges_for_1_project"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="12"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="63,634,235,24"
+					Text="Maximum to 10 edges for 1 project"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_131"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119_ek5"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<Image x:Name="rectangle_8_ek9"
+						Source="rectangle_8_ek9.png"
+						AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+					<AbsoluteLayout x:Name="group_44_ek5"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion_icon___arrows_ek8"
+							Source="cyblion_icon___arrows_ek8.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104_ek8"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___main_ek9"
+						Source="cyblion_logo_name___main_ek9.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___main_ek10"
+						Source="cyblion_logo_icon___main_ek10.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_134"
+				 AbsoluteLayout.LayoutBounds="0,680,360,80"
+				 >
+
+				<Image x:Name="rectangle_6_ek9"
+					Source="rectangle_6_ek9.png"
+					AbsoluteLayout.LayoutBounds="0,0,360,80" />
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek36"
+					 AbsoluteLayout.LayoutBounds="38,11,62,53"
+					 >
+
+					<Label x:Name="home_ek9"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="HOME"
+					 />
+					<Image x:Name="cyblion___white_icon___home_ek5"
+						Source="cyblion___white_icon___home_ek5.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek37"
+					 AbsoluteLayout.LayoutBounds="186,11,62,53"
+					 >
+
+					<Label x:Name="data_ek9"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="DATA"
+					 />
+					<Image x:Name="cyblion___white_icon___dashboards_ek9"
+						Source="cyblion___white_icon___dashboards_ek9.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek38"
+					 AbsoluteLayout.LayoutBounds="260,11,62,53"
+					 >
+
+					<Label x:Name="profile_ek9"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="PROFILE"
+					 />
+					<Image x:Name="cyblion___white_icon___avatar_ek8"
+						Source="cyblion___white_icon___avatar_ek8.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek39"
+					 AbsoluteLayout.LayoutBounds="112,11,62,53"
+					 >
+
+					<Label x:Name="edges_ek9"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="EDGES"
+					 />
+					<Image x:Name="cyblion___white_icon___edge_ek11"
+						Source="cyblion___white_icon___edge_ek11.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

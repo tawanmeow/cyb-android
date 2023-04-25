@@ -1,0 +1,108 @@
+<ContentPage x:Class="SEALMobile.key_gen_alert2"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="3_2_3__key_gen___alert2">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg___3_2_3__key_gen___alert2"
+				Color="#09a8ea"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+			<Image x:Name="cyblion_logo_icon___white"
+				Source="cyblion_logo_icon___white.png"
+				AbsoluteLayout.LayoutBounds="112,94,136,200" />
+
+			<AbsoluteLayout x:Name="group_116"
+				 AbsoluteLayout.LayoutBounds="38,333,285,228"
+				 >
+
+				<Label x:Name="are_you_sure_to_override_your_existing_keys_"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="-3,163,290,75"
+					Text="Are you sure to override your existing keys?"
+				 />
+				<Label x:Name="you_will_override_your_keys"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="36"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="-5,-4,289,168"
+					Text="YOU WILL OVERRIDE YOUR KEYS"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="secondary_button"
+				 AbsoluteLayout.LayoutBounds="38,600,284,52"
+				 >
+
+				<BoxView x:Name="rectangle_5"
+					CornerRadius="26"
+					Color="#09a8ea"
+					AbsoluteLayout.LayoutBounds="0,0,286,54" />
+				<Label x:Name="confirm"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="50,9,184,40"
+					Text="CONFIRM"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_126"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<BoxView x:Name="rectangle_8"
+						Opacity="0"
+						Color="#ededed"
+						AbsoluteLayout.LayoutBounds="0,0,360,60" />
+
+					<AbsoluteLayout x:Name="group_44"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion___white_icon___arrows"
+							Source="cyblion___white_icon___arrows.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___white"
+						Source="cyblion_logo_name___white.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___white_ek1"
+						Source="cyblion_logo_icon___white_ek1.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

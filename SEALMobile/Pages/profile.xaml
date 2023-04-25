@@ -1,0 +1,240 @@
+<ContentPage x:Class="SEALMobile.profile_page"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="profile">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__profile"
+				Color="#e4e4e4"
+				AbsoluteLayout.LayoutBounds="0,0,360,759" />
+			<BoxView x:Name="rectangle_8"
+				Color="#ededed"
+				AbsoluteLayout.LayoutBounds="0,0,360,60" />
+
+			<AbsoluteLayout x:Name="group_7"
+				 AbsoluteLayout.LayoutBounds="38,22,20,16"
+				 >
+
+				<Image x:Name="line_6"
+					Source="line_6.png"
+					AbsoluteLayout.LayoutBounds="0,15,20,2" />
+				<Image x:Name="line_5"
+					Source="line_5.png"
+					AbsoluteLayout.LayoutBounds="0,7,20,2" />
+				<Image x:Name="line_4"
+					Source="line_4.png"
+					AbsoluteLayout.LayoutBounds="0,-1,20,2" />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_25"
+				 AbsoluteLayout.LayoutBounds="38,162,284,106"
+				 >
+
+				<Label x:Name="joined_nov_18__2023"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					Opacity="0.6"
+					FontSize="12"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="0,85,295,25"
+					Text="Joined Nov 18, 2023"
+				 />
+
+				<AbsoluteLayout x:Name="group_24"
+					 AbsoluteLayout.LayoutBounds="0,0,176,73"
+					 >
+
+					<Image x:Name="line_11"
+						Source="line_11.png"
+						AbsoluteLayout.LayoutBounds="0,72,62,2.5" />
+					<Label x:Name="mr__sawasdee_wanjan"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="24"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="0,-4,193,78"
+						Text="Mr. Sawasdee
+Wanjan"
+					 />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+			<Label x:Name="netpie_token"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="16"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="38,296,223,32"
+				Text="NETPIE TOKEN"
+			 />
+
+			<AbsoluteLayout x:Name="group_104"
+				 AbsoluteLayout.LayoutBounds="186,10,136,40"
+				 >
+
+				<Image x:Name="cyblion_logo_name___main"
+					Source="cyblion_logo_name___main.png"
+					AbsoluteLayout.LayoutBounds="27,7,109,26" />
+				<Image x:Name="cyblion_logo_icon___main"
+					Source="cyblion_logo_icon___main.png"
+					AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_112"
+				 AbsoluteLayout.LayoutBounds="0,679,360,80"
+				 >
+
+				<BoxView x:Name="rectangle_6"
+					Color="#000000"
+					AbsoluteLayout.LayoutBounds="0,0,360,80" />
+
+				<AbsoluteLayout x:Name="nav_menu_icon"
+					 AbsoluteLayout.LayoutBounds="38,11,62,53"
+					 >
+
+					<Label x:Name="home"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="HOME"
+					 />
+					<Image x:Name="cyblion___white_icon___home"
+						Source="cyblion___white_icon___home.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek1"
+					 AbsoluteLayout.LayoutBounds="186,11,62,53"
+					 >
+
+					<Label x:Name="data"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="DATA"
+					 />
+					<Image x:Name="cyblion___white_icon___dashboards"
+						Source="cyblion___white_icon___dashboards.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek2"
+					 AbsoluteLayout.LayoutBounds="260,11,62,53"
+					 >
+
+					<Label x:Name="profile"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#09a8ea"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="PROFILE"
+					 />
+					<Image x:Name="cyblion___sky_icon___avatar"
+						Source="cyblion___sky_icon___avatar.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek3"
+					 AbsoluteLayout.LayoutBounds="112,11,62,53"
+					 >
+
+					<Label x:Name="edges"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="EDGES"
+					 />
+					<Image x:Name="cyblion___white_icon___edge"
+						Source="cyblion___white_icon___edge.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_113"
+				 AbsoluteLayout.LayoutBounds="38,88,62,62"
+				 >
+
+				<BoxView x:Name="ellipse_2"
+					Color="#09a8ea"
+					AbsoluteLayout.LayoutBounds="0,0,62,62" />
+				<Image x:Name="person_fill0_wght400_grad0_opsz48"
+					Source="person_fill0_wght400_grad0_opsz48.png"
+					AbsoluteLayout.LayoutBounds="12,12,39,39" />
+			</AbsoluteLayout>
+
+			<BoxView x:Name="rectangle_26"
+				CornerRadius="15"
+				Color="#ffffff"
+				AbsoluteLayout.LayoutBounds="38,342,284,80" />
+			<Image x:Name="cyblion_logo_icon___main_ek1"
+				Source="cyblion_logo_icon___main_ek1.png"
+				AbsoluteLayout.LayoutBounds="60,362,32,40" />
+			<Label x:Name="registered_at_nov_15__2023"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				Opacity="0.6"
+				FontSize="8"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="112,383,145,16"
+				Text="Registered at Nov 15, 2023"
+			 />
+			<Label x:Name="token_a"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="14"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="112,363,82,28"
+				Text="TOKEN A"
+			 />
+			<Image x:Name="cyblion___sky_icon___arrows"
+				Source="cyblion___sky_icon___arrows.png"
+				AbsoluteLayout.LayoutBounds="286,370,24,24" />
+
+			<AbsoluteLayout x:Name="secondary_button"
+				 AbsoluteLayout.LayoutBounds="38,593,284,52"
+				 >
+
+				<BoxView x:Name="rectangle_5"
+					CornerRadius="26"
+					Color="#09a8ea"
+					AbsoluteLayout.LayoutBounds="0,0,286,54" />
+				<Label x:Name="log_out"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="50,9,184,40"
+					Text="LOG OUT"
+				 />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

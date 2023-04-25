@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+    x:Class="SEALMobile.Views.UserHomePage"
+	NavigationPage.HasNavigationBar="True"
+	NavigationPage.HasBackButton="False">
+
+    <NavigationPage.TitleView  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+
+            <Image Source="cyblion___neo_logo_horizontal___main.png" />
+            <!--<Image Source="cyblion_logo_name___main.png" />-->
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e4e4e4">
+
+            <ScrollView>
+                <StackLayout Padding="40" >
+                    <StackLayout>
+                        <Label FontFamily="Red Hat Display" FontAttributes="Bold" FontSize="24" TextColor="#000000"
+					Text="MY"/>
+                        <Label FontFamily="Red Hat Display" FontAttributes="Bold" FontSize="24" TextColor="#000000"
+					Text="PROJECTS"/>
+                    </StackLayout>
+
+                    <StackLayout HeightRequest="325" x:Name="project_card" Margin="0,20"
+							 HorizontalOptions="Center">
+                        <CollectionView x:Name="CollectionView"
+									ItemsSource="{Binding Projects}"
+									ItemsLayout="VerticalGrid, 2"
+									SelectionMode="Single"
+									SelectionChanged="CollectionView_ItemSelected"
+									>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout>
+                                        <Frame CornerRadius="10"
+										   BackgroundColor="#ffffff"
+										   BorderColor="Black"
+										   Padding="10"
+										   HasShadow="False"
+										   Margin="5">
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="50" />
+                                                    <RowDefinition Height="10" />
+                                                    <RowDefinition Height="60" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="50" />
+                                                    <ColumnDefinition Width="30" />
+                                                </Grid.ColumnDefinitions>
+                                                <Label FontFamily="Red Hat Display" 
+												   FontAttributes="Bold"
+												   FontSize="8"
+												   TextColor="#000000"
+												   HorizontalTextAlignment="Start"
+												   Grid.Row="2" Grid.ColumnSpan="2"
+												   Text="{Binding description}"
+												   />
+                                                <Image Source="line_3_ek1.png" Grid.Row="1"/>
+
+                                                <Label FontFamily="Red Hat Display"
+												FontAttributes="Bold"
+												FontSize="16"
+												TextColor="#000000"
+												AbsoluteLayout.LayoutBounds="0,-4,131,32"
+												Grid.Row="0" Grid.ColumnSpan="2"
+												Text="{Binding projectname}"
+												/>
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="End" Margin="0,30">
+
+                        <AbsoluteLayout AbsoluteLayout.LayoutBounds="186,640,136,62">
+                            <BoxView x:Name="c_project_Color"
+					CornerRadius="15"
+					Color="#09a8ea"
+					AbsoluteLayout.LayoutBounds="0,0,136,62" />
+
+                            <AbsoluteLayout x:Name="group_301"
+						 AbsoluteLayout.LayoutBounds="10,14,116,36"
+						 >
+
+                                <Label x:Name="create_project"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="12"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="52,0,75,39"
+							Text="CREATE PROJECT"
+						 />
+                                <Image x:Name="cyblion___neo___create_project___white"
+							Source="cyblion___neo___create_project___white.png"
+							AbsoluteLayout.LayoutBounds="0,0,36,36" />
+                            </AbsoluteLayout>
+
+                            <!--<AbsoluteLayout AbsoluteLayout.LayoutBounds="20,16,97,31">
+
+                                <Label x:Name="create_edge"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="12"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="36,-4,72,39"
+						Text="CREATE PROJECT"
+						/>
+
+                                <AbsoluteLayout AbsoluteLayout.LayoutBounds="0,6,20,20">
+                                    <Image x:Name="line_7"
+							Source="line_7.png"
+							AbsoluteLayout.LayoutBounds="0,9,20,2.5" />
+                                    <Image x:Name="line_8"
+							Source="line_8.png"
+							AbsoluteLayout.LayoutBounds="9,0,2.5,20" />
+                                </AbsoluteLayout>
+
+                            </AbsoluteLayout>-->
+
+                            <Button x:Name="createProj_BTN"
+                                Clicked="Handle_CreateProject" BorderColor="Red" BorderWidth="0" HeightRequest="62" WidthRequest="136"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

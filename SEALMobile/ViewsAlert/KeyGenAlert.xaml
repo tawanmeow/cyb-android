@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xct:Popup
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+    x:Class="SEALMobile.ViewsAlert.KeyGenAlert">
+    <ContentView  Background="#09a8ea">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+            <Image x:Name="cyblion___white_keys"
+				Source="cyblion___white_keys_ek1.png"
+					   HorizontalOptions="Center" Margin="20"/>
+
+            <Label x:Name="you_have_keys__"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="28"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-4,-4,289,68"
+						Text="YOU HAVE KEYS !"
+					 />
+            <Label x:Name="are_you_sure_to_generate_new_keys__"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="16"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-3,44,290,72"
+						Text="Are you sure to generate new keys ?"
+					 />
+
+            <Button Clicked="Button_Clicked"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalOptions="Center"
+					FontSize="18"
+					TextColor="#ffffff"
+					CornerRadius="30"
+					Text="GENERATE"
+					WidthRequest="280"
+					HeightRequest="60"
+					BorderWidth="3"
+					BorderColor="#ffffff" />
+
+
+        </StackLayout>
+
+
+
+
+    </ContentView>
+</xct:Popup>

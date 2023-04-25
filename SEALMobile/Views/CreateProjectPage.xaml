@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SEALMobile.Views.CreateProjectPage"
+	NavigationPage.HasNavigationBar="True"
+	NavigationPage.HasBackButton="True">
+
+    <NavigationPage.TitleView  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+			<Image Source="cyblion___neo_logo_horizontal___main.png" />
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+
+        <StackLayout Background="#000000">
+            <ScrollView>
+                <StackLayout Padding="40" HorizontalOptions="Center" VerticalOptions="FillAndExpand">
+
+                    <StackLayout HorizontalOptions="Start">
+
+                        <AbsoluteLayout  >
+                            <Label x:Name="create_project"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="24"
+				TextColor="#ffffff"
+				AbsoluteLayout.LayoutBounds="0,0,143,78"
+				Text="CREATE PROJECT"
+			 />
+                        </AbsoluteLayout>
+                    </StackLayout>
+
+                    <StackLayout Padding="0,50,0,0" HorizontalOptions="Center">
+                        <Label x:Name="project_name"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,-4,121,24"
+					Text="PROJECT NAME"
+				 />
+                        <AbsoluteLayout AbsoluteLayout.LayoutBounds="0,28,284,34">
+
+                            <Image Source="line_2.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+                            <Entry x:Name="name_entry"
+						FontFamily="Red Hat Display"
+						FontSize="20"
+						TextColor="#ffffff"
+						BackgroundColor="Transparent"
+						
+						AbsoluteLayout.LayoutBounds="0,-4,250,40"
+						Placeholder="NAME"
+					 />
+                        </AbsoluteLayout>
+
+                    </StackLayout>
+
+
+                    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
+
+                        <Label x:Name="description"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,-4,106,24"
+					Text="DESCRIPTION"
+				 />
+
+                        <AbsoluteLayout x:Name="group_2_ek1"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+                            <Image x:Name="line_2_ek1"
+						Source="line_2_ek1.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+                            <Entry x:Name="desc_entry"
+						FontFamily="Red Hat Display"
+						FontSize="20"
+						BackgroundColor="Transparent"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,-4,250,40"
+						Placeholder="DETAILS"
+					 />
+                        </AbsoluteLayout>
+
+                    </StackLayout>
+
+                    <StackLayout Padding="0,100" HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
+
+                        <AbsoluteLayout x:Name="secondary_button"
+						 AbsoluteLayout.LayoutBounds="38,593,284,52"
+						 >
+
+                            <BoxView x:Name="rectangle_5"
+							CornerRadius="26"
+							Color="#09a8ea"
+							AbsoluteLayout.LayoutBounds="0,0,286,54" />
+                            <Label x:Name="create"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center"
+							FontSize="20"
+							TextColor="#ffffff"
+							AbsoluteLayout.LayoutBounds="50,9,184,40"
+							Text="CREATE"
+						 />
+
+                            <Button Clicked="Button_Clicked" HeightRequest="54" WidthRequest="286" />
+                        </AbsoluteLayout>
+                    </StackLayout>
+
+
+
+                </StackLayout>
+            </ScrollView>
+            <!--<AbsoluteLayout>
+                <Image x:Name="cyblion___white_icon___edge"
+				Source="cyblion___white_icon___edge.png"
+				AbsoluteLayout.LayoutBounds="112,460,248,370" />
+			</AbsoluteLayout>-->
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

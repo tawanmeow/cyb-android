@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SEALMobile.Views.CloudDetailPage"
+	NavigationPage.HasNavigationBar="True"
+	NavigationPage.HasBackButton="True">
+
+    <NavigationPage.TitleView  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+			<Image Source="cyblion___neo_logo_horizontal___main.png" />
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="#e4e4e4">
+            <ScrollView>
+                <StackLayout Padding="40" HorizontalOptions="Center">
+                    <StackLayout >
+
+                        <StackLayout>
+                            <AbsoluteLayout x:Name="group_26_ek3"
+						AbsoluteLayout.LayoutBounds="0,0,300,40"
+						>
+                                <Label x:Name="edge_name"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									FontSize="24"
+									TextColor="#000000"
+									AbsoluteLayout.LayoutBounds="0,0,300,40"
+									Text="{Binding alias}"
+									/>
+                                <Image x:Name="line_11_ek5"
+									Source="line_11_ek5.png"
+									AbsoluteLayout.LayoutBounds="0,42,62,3" />
+
+                            </AbsoluteLayout>
+
+                            <Label x:Name="project_name"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					FontSize="12"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="0,55,147,24"
+					Text="{Binding projectname}"
+					/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                    <StackLayout x:Name="detail"
+							 VerticalOptions="CenterAndExpand"
+							 Margin="0,20"
+							 HeightRequest="150"
+							 >
+
+                        <Label x:Name="edge_details"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#000000"
+					Margin="0,10"
+					Text="EDGE DETAILS"
+					/>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label 
+						FontFamily="Red Hat Display"
+						FontSize="16"
+						TextColor="#000000"
+						WidthRequest="120"
+						Text="Pairing Status :"
+						/>
+                            <Label x:Name="pair_status"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="16"
+						TextColor="#000000"
+						HorizontalOptions="FillAndExpand"
+						Text="{Binding sync}"
+						/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+						FontFamily="Red Hat Display"
+						FontSize="16"
+						TextColor="#000000"
+						Text="Description :"
+						WidthRequest="120"
+						/>
+                            <Label x:Name="description"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="16"
+						HorizontalOptions="FillAndExpand"
+						TextColor="#000000"
+						Text="{Binding description}"
+						/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                    <StackLayout x:Name="pair" 
+							 Margin="0,150"
+							 HorizontalOptions="Center" VerticalOptions="EndAndExpand">
+
+                        <AbsoluteLayout AbsoluteLayout.LayoutBounds="38,593,284,52">
+
+                            <Image x:Name="rectangle_5_ek4"
+					Source="rectangle_5_ek4.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,302,70" />
+                            <Label x:Name="pair_edge"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="59,9,165,40"
+					Text="SEND KEY"
+						/>
+                            <Button Clicked="SendKey_Button_Clicked"
+							WidthRequest="285" HeightRequest="52"
+							BorderColor="Red" BorderWidth="0" />
+                        </AbsoluteLayout>
+
+                    </StackLayout>
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+            <!--<AbsoluteLayout x:Name="NAVbar"
+				 AbsoluteLayout.LayoutBounds="0,680,360,80"
+				 >
+
+                <Image x:Name="rectangle_6_ek10"
+					Source="rectangle_6_ek10.png"
+					AbsoluteLayout.LayoutBounds="0,0,360,80" />
+
+                <AbsoluteLayout x:Name="nav_menu_icon_ek40"
+					 AbsoluteLayout.LayoutBounds="38,11,62,53"
+					 >
+
+                    <Label x:Name="home_ek10"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="HOME"
+					 />
+                    <Image x:Name="cyblion___white_icon___home_ek6"
+						Source="cyblion___white_icon___home_ek6.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="nav_menu_icon_ek41"
+					 AbsoluteLayout.LayoutBounds="186,11,62,53"
+					 >
+
+                    <Label x:Name="data_ek10"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="DATA"
+					 />
+                    <Image x:Name="cyblion___white_icon___dashboards_ek10"
+						Source="cyblion___white_icon___dashboards_ek10.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="nav_menu_icon_ek42"
+					 AbsoluteLayout.LayoutBounds="260,11,62,53"
+					 >
+
+                    <Label x:Name="profile_ek10"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="PROFILE"
+					 />
+                    <Image x:Name="cyblion___white_icon___avatar_ek9"
+						Source="cyblion___white_icon___avatar_ek9.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="nav_menu_icon_ek43"
+					 AbsoluteLayout.LayoutBounds="112,11,62,53"
+					 >
+
+                    <Label x:Name="edges_ek10"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="EDGES"
+					 />
+                    <Image x:Name="cyblion___white_icon___edge_ek12"
+						Source="cyblion___white_icon___edge_ek12.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+                </AbsoluteLayout>
+
+            </AbsoluteLayout>-->
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

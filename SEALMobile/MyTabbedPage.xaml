@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SEALMobile;assembly=SEALMobile"
+             xmlns:localViews="clr-namespace:SEALMobile.Views;assembly=SEALMobile"
+             x:Class="SEALMobile.MyTabbedPage">
+    <!--Pages can be added as references or inline-->
+    <NavigationPage.TitleView  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+
+            <Image Source="cyblion_logo_icon___main.png" />
+            <Image Source="cyblion_logo_name___main.png" />
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+    <TabbedPage.Children>
+
+        <!--<ContentPage Title="Tab 1" IconImageSource="cyblion_logo_icon___main.png" />-->
+        <local:MyPage Title="Mypage"/>
+        <localViews:LoginPage Title="Login"/>
+    </TabbedPage.Children>
+    <!--<ContentPage Title="Tab 2" />-->
+    <!--<ContentPage Title="Tab 3" />-->
+    <!--<ContentPage Title="Tab 4" />-->
+</TabbedPage>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>8.0</LangVersion>
+		<ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />
+		<PackageReference Include="Xamarin.Essentials" Version="1.7.5" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+		<PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
+		<PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
+		<PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.5" />
+		<PackageReference Include="GraphQL.Client" Version="5.1.1" />
+		<PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="5.1.1" />
+		<PackageReference Include="MQTTnet" Version="4.1.4.563" />
+		<PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="4.1.4.563" />
+		<PackageReference Include="MQTTnet.AspNetCore" Version="4.1.4.563" />
+		<PackageReference Include="EmbedIO" Version="3.5.2" />
+		<PackageReference Include="Microsoft.Research.SEALNet" Version="4.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="Microsoft.Research.SEALNet" />
+		<None Remove="Newtonsoft.Json" />
+		<None Remove="System.Net.Http" />
+		<None Remove="Models\" />
+		<None Remove="Views\" />
+		<None Remove="ZXing.Net.Mobile" />
+		<None Remove="Services\" />
+		<None Remove="ZXing.Net.Mobile.Forms" />
+		<None Remove="Xamarin.CommunityToolkit" />
+		<None Remove="Syncfusion.Xamarin.SfChart" />
+		<None Remove="DevExpress.XamarinForms.Charts" />
+		<None Remove="GraphQL.Client" />
+		<None Remove="GraphQL.Client.Serializer.Newtonsoft" />
+		<None Remove="MQTTnet" />
+		<None Remove="M2Mqtt" />
+		<None Remove="MQTTnet.Extensions.ManagedClient" />
+		<None Remove="MQTTnet.AspNetCore" />
+		<None Remove="EmbedIO" />
+		<None Remove="html\" />
+		<None Remove="html\index.html" />
+		<None Remove="html\myScript.js" />
+		<None Remove="html\freeboard\css\freeboard.css" />
+		<None Remove="html\freeboard\plugins\.DS_Store" />
+		<None Remove="html\freeboard\plugins\cyblion\browsermqtt.js" />
+		<None Remove="html\freeboard\plugins\cyblion\cyblion.datasource.js" />
+		<None Remove="html\freeboard\plugins\cyblion\cyblion.decryptor.js" />
+		<None Remove="html\freeboard\plugins\cyblion\cyblion.mqtt.js" />
+		<None Remove="html\freeboard\plugins\freeboard\freeboard.datasources.js" />
+		<None Remove="html\freeboard\plugins\freeboard\freeboard.widgets.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\jquery.sparkline.min.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\justgage.1.0.1.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\raphael.2.1.0.min.js" />
+		<None Remove="html\freeboard\plugins\" />
+		<None Remove="html\freeboard\scriptForToken.js" />
+		<None Remove="Font\Red_Hat_Display\RedHatDisplay-Italic-VariableFont_wght.ttf" />
+		<None Remove="Font\Red_Hat_Display\RedHatDisplay-VariableFont_wght.ttf" />
+		<None Remove="html\freeboard\plugins\thirdparty\mqttws31-min.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\paho.mqtt.plugin.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\netpie.datasource.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\ibm.iotfoundation.plugin.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\mqttws31.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\clearobject.mqtt.plugin.js" />
+		<None Remove="html\freeboard\plugins\thirdparty\apexcharts_linecharts.js" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Models\" />
+		<Folder Include="Views\" />
+		<Folder Include="Services\" />
+		<Folder Include="html\" />
+		<Folder Include="html\freeboard\" />
+		<Folder Include="html\freeboard\css\" />
+		<Folder Include="html\freeboard\js\" />
+		<Folder Include="html\freeboard\plugins\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Remove="Pages\0__splash.xaml" />
+	  <EmbeddedResource Remove="Pages\1__log_in.xaml" />
+	  <EmbeddedResource Remove="Pages\keyGen.xaml" />
+	  <EmbeddedResource Remove="Pages\createEdge.xaml" />
+	  <EmbeddedResource Remove="Pages\keyGenAlert2.xaml" />
+	  <EmbeddedResource Remove="Pages\projectSummary.xaml" />
+	  <EmbeddedResource Remove="Pages\createProject.xaml" />
+	  <EmbeddedResource Remove="Pages\log_in_alert1.xaml" />
+	  <EmbeddedResource Remove="Pages\keyGenAlert.xaml" />
+	  <EmbeddedResource Remove="Pages\splash.xaml" />
+	  <EmbeddedResource Remove="Pages\log_in_alert2.xaml" />
+	  <EmbeddedResource Remove="Pages\log_in_page.xaml" />
+	  <EmbeddedResource Remove="Pages\homepage.xaml" />
+	  <EmbeddedResource Remove="Pages\createProjectAlert.xaml" />
+	  <EmbeddedResource Remove="Pages\profile.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_1_3__key_gen___completed.xaml" />
+	  <EmbeddedResource Remove="Pages\5__profile.xaml" />
+	  <EmbeddedResource Remove="Pages\3_0_2__project_summary___filled.xaml" />
+	  <EmbeddedResource Remove="Pages\4_1_1__edge_details___1.xaml" />
+	  <EmbeddedResource Remove="Pages\2_2__not_enough_quota_for_project.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_1_2__key_gen___selecting.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_1_1__key_gen___1.xaml" />
+	  <EmbeddedResource Remove="Pages\instagram_story___1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_0_0__edge_device_list___top___1.xaml" />
+	  <EmbeddedResource Remove="Pages\dashboard_test___mobile2.xaml" />
+	  <EmbeddedResource Remove="Pages\3_0_2__project_summary___reviced.xaml" />
+	  <EmbeddedResource Remove="Pages\web_1280___1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_0_1__edge_device_list___bottom.xaml" />
+	  <EmbeddedResource Remove="Pages\2__homepage___1.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_2__key_gen___alert.xaml" />
+	  <EmbeddedResource Remove="Pages\3_1_2__create_edge___completed___1.xaml" />
+	  <EmbeddedResource Remove="Pages\dashboard_test.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_3__key_gen___alert2.xaml" />
+	  <EmbeddedResource Remove="Pages\all_edge_lists.xaml" />
+	  <EmbeddedResource Remove="Pages\3_0_1__project_summary___default___1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_1_3__pairing_completed___1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_1_2__edge_pairing___1.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_2__key_gen__alert.xaml" />
+	  <EmbeddedResource Remove="Pages\1_2__log_in___alert2.xaml" />
+	  <EmbeddedResource Remove="Pages\2_2__create_project___alert___1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_0_0__edge_device_list___top.xaml" />
+	  <EmbeddedResource Remove="Pages\3_0_1__project_summary.xaml" />
+	  <EmbeddedResource Remove="Pages\3_1_1__create_edge___1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_1_4__delete_edge___alert.xaml" />
+	  <EmbeddedResource Remove="Pages\dashboard_test___mobile.xaml" />
+	  <EmbeddedResource Remove="Pages\3_2_3__key_gen___alert___2.xaml" />
+	  <EmbeddedResource Remove="Pages\2_1__create_project___1.xaml" />
+	  <EmbeddedResource Remove="Pages\1_1__log_in___alert1.xaml" />
+	  <EmbeddedResource Remove="Pages\4_1_4__delete_edge__alert.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\0__splash.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\5__profile.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\all_edge_lists.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_1_4__delete_edge__alert.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\1_1__log_in___alert1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\2_1__create_project___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_2_3__key_gen___alert___2.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\dashboard_test___mobile.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_1_4__delete_edge___alert.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_1_1__create_edge___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_0_1__project_summary.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_0_0__edge_device_list___top.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\2_2__create_project___alert___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\1_2__log_in___alert2.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_2_2__key_gen__alert.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_1_2__edge_pairing___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_1_3__pairing_completed___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_0_1__project_summary___default___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_2_3__key_gen___alert2.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\dashboard_test.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_1_2__create_edge___completed___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\2__homepage___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_0_1__edge_device_list___bottom.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\1__log_in.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\web_1280___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_0_2__project_summary___reviced.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\dashboard_test___mobile2.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_0_0__edge_device_list___top___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\instagram_story___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_2_1_1__key_gen___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_2_1_2__key_gen___selecting.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\4_1_1__edge_details___1.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_0_2__project_summary___filled.xaml" />
+	  <EmbeddedResource Remove="Pages\newupdate\3_2_1_3__key_gen___completed.xaml" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="html\index.html" />
+		<EmbeddedResource Include="html\myScript.js" />
+		<EmbeddedResource Include="html\freeboard\index.html" />
+		<EmbeddedResource Include="html\freeboard\js\*" />
+		<EmbeddedResource Include="html\freeboard\scriptForToken.js" />
+		<EmbeddedResource Include="Font\Red_Hat_Display\RedHatDisplay-Italic-VariableFont_wght.ttf" />
+		<EmbeddedResource Include="Font\Red_Hat_Display\RedHatDisplay-VariableFont_wght.ttf" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\mqttws31-min.js" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\paho.mqtt.plugin.js" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\netpie.datasource.js" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\ibm.iotfoundation.plugin.js" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\mqttws31.js" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\clearobject.mqtt.plugin.js" />
+		<EmbeddedResource Include="html\freeboard\plugins\thirdparty\apexcharts_linecharts.js" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Remove="Pages\0__splash.xaml.cs" />
+	  <Compile Remove="Pages\profile.xaml.cs" />
+	  <Compile Remove="Pages\splash.xaml.cs" />
+	  <Compile Remove="Pages\keyGenAlert2.xaml.cs" />
+	  <Compile Remove="Pages\log_in_page.xaml.cs" />
+	  <Compile Remove="Pages\keyGenAlert.xaml.cs" />
+	  <Compile Remove="Pages\homepage.xaml.cs" />
+	  <Compile Remove="Pages\log_in_alert2.xaml.cs" />
+	  <Compile Remove="Pages\keyGen.xaml.cs" />
+	  <Compile Remove="Pages\createProject.xaml.cs" />
+	  <Compile Remove="Pages\log_in_alert1.xaml.cs" />
+	  <Compile Remove="Pages\createProjectAlert.xaml.cs" />
+	  <Compile Remove="Pages\projectSummary.xaml.cs" />
+	  <Compile Remove="Pages\createEdge.xaml.cs" />
+	  <Compile Remove="Pages\3_1_1__create_edge___1.xaml.cs" />
+	  <Compile Remove="Pages\4_0_0__edge_device_list___top.xaml.cs" />
+	  <Compile Remove="Pages\4_1_1__edge_details___1.xaml.cs" />
+	  <Compile Remove="Pages\1_2__log_in___alert2.xaml.cs" />
+	  <Compile Remove="Pages\3_1_2__create_edge___completed___1.xaml.cs" />
+	  <Compile Remove="Pages\2__homepage___1.xaml.cs" />
+	  <Compile Remove="Pages\dashboard_test.xaml.cs" />
+	  <Compile Remove="Pages\2_2__create_project___alert___1.xaml.cs" />
+	  <Compile Remove="Pages\web_1280___1.xaml.cs" />
+	  <Compile Remove="Pages\4_1_4__delete_edge___alert.xaml.cs" />
+	  <Compile Remove="Pages\3_2_1_2__key_gen___selecting.xaml.cs" />
+	  <Compile Remove="Pages\4_1_3__pairing_completed___1.xaml.cs" />
+	  <Compile Remove="Pages\1__log_in.xaml.cs" />
+	  <Compile Remove="Pages\2_2__not_enough_quota_for_project.xaml.cs" />
+	  <Compile Remove="Pages\3_2_3__key_gen___alert2.xaml.cs" />
+	  <Compile Remove="Pages\4_0_0__edge_device_list___top___1.xaml.cs" />
+	  <Compile Remove="Pages\3_2_1_1__key_gen___1.xaml.cs" />
+	  <Compile Remove="Pages\dashboard_test___mobile.xaml.cs" />
+	  <Compile Remove="Pages\5__profile.xaml.cs" />
+	  <Compile Remove="Pages\3_2_2__key_gen__alert.xaml.cs" />
+	  <Compile Remove="Pages\3_2_1_3__key_gen___completed.xaml.cs" />
+	  <Compile Remove="Pages\dashboard_test___mobile2.xaml.cs" />
+	  <Compile Remove="Pages\2_1__create_project___1.xaml.cs" />
+	  <Compile Remove="Pages\4_0_1__edge_device_list___bottom.xaml.cs" />
+	  <Compile Remove="Pages\3_2_2__key_gen___alert.xaml.cs" />
+	  <Compile Remove="Pages\instagram_story___1.xaml.cs" />
+	  <Compile Remove="Pages\all_edge_lists.xaml.cs" />
+	  <Compile Remove="Pages\3_0_2__project_summary___reviced.xaml.cs" />
+	  <Compile Remove="Pages\4_1_2__edge_pairing___1.xaml.cs" />
+	  <Compile Remove="Pages\3_0_2__project_summary___filled.xaml.cs" />
+	  <Compile Remove="Pages\3_0_1__project_summary.xaml.cs" />
+	  <Compile Remove="Pages\1_1__log_in___alert1.xaml.cs" />
+	  <Compile Remove="Pages\3_2_3__key_gen___alert___2.xaml.cs" />
+	  <Compile Remove="Pages\4_1_4__delete_edge__alert.xaml.cs" />
+	  <Compile Remove="Pages\3_0_1__project_summary___default___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\0__splash.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\all_edge_lists.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_0_1__project_summary___default___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_1_4__delete_edge__alert.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_2_3__key_gen___alert___2.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\1_1__log_in___alert1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_0_1__project_summary.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_0_2__project_summary___filled.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_1_2__edge_pairing___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_0_2__project_summary___reviced.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\instagram_story___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_0_1__edge_device_list___bottom.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\2_1__create_project___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\dashboard_test___mobile2.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_2_1_3__key_gen___completed.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_2_2__key_gen__alert.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\5__profile.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\dashboard_test___mobile.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_2_1_1__key_gen___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_0_0__edge_device_list___top___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_2_3__key_gen___alert2.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\1__log_in.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_1_3__pairing_completed___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_2_1_2__key_gen___selecting.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_1_4__delete_edge___alert.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\web_1280___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\2_2__create_project___alert___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\dashboard_test.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\2__homepage___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_1_2__create_edge___completed___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\1_2__log_in___alert2.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_1_1__edge_details___1.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\4_0_0__edge_device_list___top.xaml.cs" />
+	  <Compile Remove="Pages\newupdate\3_1_1__create_edge___1.xaml.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MyScanner.xaml.cs">
+			<DependentUpon>MyScanner.xaml</DependentUpon>
+			<SubType>Code</SubType>
+		</Compile>
+		<Compile Update="MyPage.xaml.cs">
+		  <DependentUpon>MyPage.xaml</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+	  <BunfdleResource Include="html\freeboard\plugins\.DS_Store" />
+	  <EmbeddedResource Include="html\freeboard\plugins\cyblion\browsermqtt.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\cyblion\cyblion.datasource.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\cyblion\cyblion.decryptor.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\cyblion\cyblion.mqtt.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\freeboard\freeboard.datasources.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\freeboard\freeboard.widgets.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\thirdparty\jquery.sparkline.min.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\thirdparty\justgage.1.0.1.js" />
+	  <EmbeddedResource Include="html\freeboard\plugins\thirdparty\raphael.2.1.0.min.js" />
+	  <EmbeddedResource Include="html\freeboard\img\*" />
+	</ItemGroup>
+</Project>

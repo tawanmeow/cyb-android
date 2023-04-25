@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile.Android\\SEALMobile.Android.csproj": {}
+  },
+  "projects": {
+    "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile.Android\\SEALMobile.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile.Android\\SEALMobile.Android.csproj",
+        "projectName": "SEALMobile.Android",
+        "projectPath": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile.Android\\SEALMobile.Android.csproj",
+        "packagesPath": "C:\\Users\\meowpoppin-\\.nuget\\packages\\",
+        "outputPath": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\meowpoppin-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile\\SEALMobile.csproj": {
+                "projectPath": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile\\SEALMobile.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "EmbedIO": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.1.4.563, )"
+            },
+            "MQTTnet.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.4.563, )"
+            },
+            "MQTTnet.Extensions.ManagedClient": {
+              "target": "Package",
+              "version": "[4.1.4.563, )"
+            },
+            "Microsoft.Research.SEALNet": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2545, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile\\SEALMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile\\SEALMobile.csproj",
+        "projectName": "SEALMobile",
+        "projectPath": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile\\SEALMobile.csproj",
+        "packagesPath": "C:\\Users\\meowpoppin-\\.nuget\\packages\\",
+        "outputPath": "D:\\Test\\SEALMobileApp-main (1)\\SEALMobileApp-main\\SEALMobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\meowpoppin-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "EmbedIO": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.1.4.563, )"
+            },
+            "MQTTnet.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.4.563, )"
+            },
+            "MQTTnet.Extensions.ManagedClient": {
+              "target": "Package",
+              "version": "[4.1.4.563, )"
+            },
+            "Microsoft.Research.SEALNet": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2578, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

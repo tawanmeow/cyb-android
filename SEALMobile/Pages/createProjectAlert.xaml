@@ -1,0 +1,88 @@
+<ContentPage x:Class="SEALMobile.create_project_alert_1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="create_project___alert___1">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__create_project___alert___1"
+				Color="#09a8ea"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+
+			<AbsoluteLayout x:Name="group_66"
+				 AbsoluteLayout.LayoutBounds="37,380,285,133"
+				 >
+
+				<Label x:Name="not_enough_quota_to_create_project"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="-3,68,290,75"
+					Text="not enough quota to create project"
+				 />
+				<Label x:Name="we_re_sorry"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="36"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="-5,0,289,73"
+					Text="WE'RE SORRY"
+				 />
+			</AbsoluteLayout>
+
+			<Image x:Name="cyblion___white_icon___close"
+				Source="cyblion___white_icon___close.png"
+				AbsoluteLayout.LayoutBounds="112,132,136,136" />
+
+			<AbsoluteLayout x:Name="group_132"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<BoxView x:Name="rectangle_8"
+						Opacity="0"
+						Color="#ededed"
+						AbsoluteLayout.LayoutBounds="0,0,360,60" />
+
+					<AbsoluteLayout x:Name="group_44"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion___white_icon___arrows"
+							Source="cyblion___white_icon___arrows.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___white"
+						Source="cyblion_logo_name___white.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___white"
+						Source="cyblion_logo_icon___white.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

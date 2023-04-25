@@ -1,0 +1,132 @@
+<ContentPage x:Class="2_2__not_enough_quota_for_project.2_2__not_enough_quota_for_project"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="2_2__not_enough_quota_for_project">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg___2_2__not_enough_quota_for_project"
+				Color="#e4e4e4"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+
+			<AbsoluteLayout x:Name="group_211"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+				<Image x:Name="rectangle_8"
+					Source="rectangle_8.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+				<AbsoluteLayout x:Name="group_7"
+					 AbsoluteLayout.LayoutBounds="38,22,20,16"
+					 >
+
+					<Image x:Name="line_6"
+						Source="line_6.png"
+						AbsoluteLayout.LayoutBounds="0,15,20,2" />
+					<Image x:Name="line_5"
+						Source="line_5.png"
+						AbsoluteLayout.LayoutBounds="0,7,20,2" />
+					<Image x:Name="line_4"
+						Source="line_4.png"
+						AbsoluteLayout.LayoutBounds="0,-1,20,2" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___main"
+						Source="cyblion_logo_name___main.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___main"
+						Source="cyblion_logo_icon___main.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+			<Image x:Name="rectangle_63"
+				Source="rectangle_63.png"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+
+			<AbsoluteLayout x:Name="group_214"
+				 AbsoluteLayout.LayoutBounds="38,103,285,500"
+				 >
+
+				<Image x:Name="rectangle_62"
+					Source="rectangle_62.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,302,518" />
+
+				<AbsoluteLayout x:Name="group_66"
+					 AbsoluteLayout.LayoutBounds="0,277,285,109"
+					 >
+
+					<Label x:Name="not_enough_quota_to_create_project"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="16"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-3,44,290,72"
+						Text="Not enough quota
+to create project"
+					 />
+					<Label x:Name="we_re_sorry"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="28"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-4,-4,289,68"
+						Text="WE'RE SORRY"
+					 />
+				</AbsoluteLayout>
+
+				<Image x:Name="cyblion___white_icon___project_overload"
+					Source="cyblion___white_icon___project_overload.png"
+					AbsoluteLayout.LayoutBounds="74,102,136,136" />
+
+				<AbsoluteLayout x:Name="pop_up_botton"
+					 AbsoluteLayout.LayoutBounds="42,413,200,52"
+					 >
+
+					<Image x:Name="rectangle_64"
+						Source="rectangle_64.png"
+						AbsoluteLayout.LayoutBounds="0,0,200,52" />
+					<Label x:Name="manage"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="18"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="52,11,95,36"
+						Text="MANAGE"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_213"
+					 AbsoluteLayout.LayoutBounds="238,23,24,24"
+					 >
+
+					<Image x:Name="line_17"
+						Source="line_17.png"
+						AbsoluteLayout.LayoutBounds="-1,-1,25.41,25.41" />
+					<Image x:Name="line_18"
+						Source="line_18.png"
+						AbsoluteLayout.LayoutBounds="-1,-1,25.41,25.41" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+<ContentPage x:Class="SEALMobile.splash"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="splash">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__splash"
+				Color="#000000"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+			<Image x:Name="cyblion_logo_hor___white"
+				Source="cyblion_logo_hor___white.png"
+				AbsoluteLayout.LayoutBounds="38,269.46,284,110.54" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

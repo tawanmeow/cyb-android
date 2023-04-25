@@ -1,0 +1,172 @@
+<ContentPage x:Class="SEALMobile.3_2_3__key_gen___alert___2"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="3_2_3__key_gen___alert___2">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_211_ek2"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+				<Image x:Name="rectangle_8_ek16"
+					Source="rectangle_8_ek16.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+				<AbsoluteLayout x:Name="group_7_ek6"
+					 AbsoluteLayout.LayoutBounds="38,22,20,16"
+					 >
+
+					<Image x:Name="line_6_ek6"
+						Source="line_6_ek6.png"
+						AbsoluteLayout.LayoutBounds="0,15,20,2" />
+					<Image x:Name="line_5_ek6"
+						Source="line_5_ek6.png"
+						AbsoluteLayout.LayoutBounds="0,7,20,2" />
+					<Image x:Name="line_4_ek6"
+						Source="line_4_ek6.png"
+						AbsoluteLayout.LayoutBounds="0,-1,20,2" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104_ek15"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___main_ek15"
+						Source="cyblion_logo_name___main_ek15.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___main_ek16"
+						Source="cyblion_logo_icon___main_ek16.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+			<Image x:Name="rectangle_63_ek2"
+				Source="rectangle_63_ek2.png"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+
+			<AbsoluteLayout x:Name="group_217"
+				 AbsoluteLayout.LayoutBounds="38,103,285,500"
+				 >
+
+				<Image x:Name="rectangle_62_ek2"
+					Source="rectangle_62_ek2.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,302,518" />
+
+				<AbsoluteLayout x:Name="group_66_ek3"
+					 AbsoluteLayout.LayoutBounds="0,277,285,109"
+					 >
+
+					<Label x:Name="are_you_sure_to_override_your_existing_keys__"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="16"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-3,44,290,72"
+						Text="Are you sure to override
+your existing keys ?"
+					 />
+					<Label x:Name="override_keys"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="28"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-4,-4,289,68"
+						Text="OVERRIDE KEYS"
+					 />
+				</AbsoluteLayout>
+
+				<Image x:Name="cyblion___white_icon___override_key___bigger"
+					Source="cyblion___white_icon___override_key___bigger.png"
+					AbsoluteLayout.LayoutBounds="74,102,136,136" />
+
+				<AbsoluteLayout x:Name="pop_up_botton_ek2"
+					 AbsoluteLayout.LayoutBounds="42,413,200,52"
+					 >
+
+					<Image x:Name="rectangle_64_ek2"
+						Source="rectangle_64_ek2.png"
+						AbsoluteLayout.LayoutBounds="0,0,200,52" />
+					<Label x:Name="confirm"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="18"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="49,11,101,36"
+						Text="CONFIRM"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_213_ek2"
+					 AbsoluteLayout.LayoutBounds="238,23,24,24"
+					 >
+
+					<Image x:Name="line_17_ek2"
+						Source="line_17_ek2.png"
+						AbsoluteLayout.LayoutBounds="-1,-1,25.41,25.41" />
+					<Image x:Name="line_18_ek2"
+						Source="line_18_ek2.png"
+						AbsoluteLayout.LayoutBounds="-1,-1,25.41,25.41" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

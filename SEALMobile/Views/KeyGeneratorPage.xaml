@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    x:Class="SEALMobile.Views.KeyGeneratorPage"
+
+    NavigationPage.HasNavigationBar="True"
+	NavigationPage.HasBackButton="True">
+
+    <NavigationPage.TitleView  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+            <Image Source="cyblion___neo_logo_horizontal___main.png" />
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#000000">
+            <ScrollView>
+                <StackLayout Padding="40" HorizontalOptions="Center">
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+                            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0,0,165,73">
+                                <Label x:Name="keys_generator"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="24"
+							TextColor="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,-4,182,78"
+							Text="KEYS GENERATOR"/>
+                            </AbsoluteLayout>
+
+                            <Label x:Name="ProjectNameLabel"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="12"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,80,147,24"
+						Text="Project A"/>
+
+                        </StackLayout>
+
+                        <Image x:Name="cyblion___white_icon___keys"
+					Source="cyblion___white_icon___keys.png"/>
+
+                    </StackLayout>
+
+                    <StackLayout Margin="0,40" HorizontalOptions="Center" >
+                        <StackLayout HorizontalOptions="Center" >
+                            <Label FontFamily="Red Hat Display"
+                               FontSize="12"
+                               TextColor="#ffffff"
+                               Text="CHOOSE CONTEXT SIZE"/>
+
+                            <StackLayout x:Name="context_list" HorizontalOptions="Center" HeightRequest="250" >
+                                <CollectionView x:Name="contextSizeSelector"
+                                            ItemsSource="{Binding SizeList}"
+                                            SelectionMode="Single"
+                                            SelectionChanged="contextSizeSelector_SelectionChanged">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackLayout>
+                                                <Frame x:Name="select"
+										CornerRadius="15"
+										BackgroundColor="Black"
+										BorderColor="White"
+										Padding="10"
+										HasShadow="False"
+										Margin="5">
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="30"/>
+                                                            <ColumnDefinition Width="180"/>
+                                                            <ColumnDefinition Width="30"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="50"/>
+                                                        </Grid.RowDefinitions>
+
+                                                        <Ellipse x:Name="ellipseLabel" Stroke="White" HorizontalOptions="Center" VerticalOptions="Center"
+													         WidthRequest="25" HeightRequest="25">
+                                                        </Ellipse>
+                                                        <Label FontFamily="Red Hat Display" Grid.Column="1"
+												           FontAttributes="Bold"
+												           FontSize="20"
+												           TextColor="white"
+												           HorizontalTextAlignment="Center"
+												           VerticalTextAlignment="Center"
+												           Text="{Binding Name}"/>
+                                                        <Image Source="{Binding Pic}"
+												           Grid.Column="2"
+                                                           HorizontalOptions="Center"
+                                                           VerticalOptions="Center"/>
+
+                                                    </Grid>
+                                                </Frame>
+                                            </StackLayout>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="Center">
+                        <StackLayout x:Name="already_generated" Orientation="Horizontal" HorizontalOptions="Center" IsVisible="false">
+                            <Image x:Name="cyblion___sky_icon___checked_ek1"
+					            Source="cyblion___sky_icon___checked_ek1.png"
+					            AbsoluteLayout.LayoutBounds="0,0,26,26" />
+                            <Label FontFamily="Red Hat Display"
+					            FontAttributes="Bold"
+					            HorizontalTextAlignment="Center"
+					            FontSize="16"
+					            TextColor="#09a8ea"
+					            AbsoluteLayout.LayoutBounds="35,-1,175,32"
+					            Text="Already Generated" />
+                        </StackLayout>
+
+                        <StackLayout >
+                            <AbsoluteLayout AbsoluteLayout.LayoutBounds="38,593,284,52">
+
+                                <BoxView CornerRadius="26"
+					            Color="#09a8ea"
+					            AbsoluteLayout.LayoutBounds="0,0,286,54" />
+
+                                <Label x:Name="generate"
+					            FontFamily="Red Hat Display"
+					            FontAttributes="Bold"
+					            HorizontalTextAlignment="Center"
+					            FontSize="20"
+					            TextColor="#ffffff"
+					            AbsoluteLayout.LayoutBounds="50,9,184,40"
+					            Text="GENERATE"/>
+
+                                <Button Clicked="KeyGen_Button_Clicked" WidthRequest="284" HeightRequest="52"/>
+
+                            </AbsoluteLayout>
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="Center">
+                            <AbsoluteLayout AbsoluteLayout.LayoutBounds="130,650,120,60" VerticalOptions="Center">
+                                <Button x:Name="undoKeyBtn" IsVisible="false" Clicked="UndoKey_Button_Clicked" Text="UNDO KEY" WidthRequest="100" HeightRequest="52"/>
+                            </AbsoluteLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

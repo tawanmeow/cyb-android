@@ -1,0 +1,742 @@
+<ContentPage x:Class="SEALMobile.dashboard_test"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="dashboard_test">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<Image x:Name="rectangle_32"
+				Source="rectangle_32.png"
+				AbsoluteLayout.LayoutBounds="0,0,1920,207" />
+			<Label x:Name="cyblion"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				HorizontalTextAlignment="Center"
+				FontSize="40"
+				TextColor="#ededed"
+				AbsoluteLayout.LayoutBounds="409,19,211,81"
+				Text="CYBLION"
+			 />
+
+			<AbsoluteLayout x:Name="group_163"
+				 AbsoluteLayout.LayoutBounds="416,265,302,103"
+				 >
+
+				<Image x:Name="rectangle_33"
+					Source="rectangle_33.png"
+					AbsoluteLayout.LayoutBounds="0,0,302,103" />
+				<Label x:Name="_70"
+					FontFamily="Red Hat Display"
+					HorizontalTextAlignment="Center"
+					FontSize="40"
+					TextColor="#ededed"
+					AbsoluteLayout.LayoutBounds="6,37,57,81"
+					Text="70"
+				 />
+
+				<AbsoluteLayout x:Name="group_158"
+					 AbsoluteLayout.LayoutBounds="0,0,302,28"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_151"
+						 AbsoluteLayout.LayoutBounds="0,0,302,28"
+						 >
+
+						<Image x:Name="rectangle_35"
+							Source="rectangle_35.png"
+							AbsoluteLayout.LayoutBounds="0,0,302,28" />
+						<Label x:Name="msg_humid"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center"
+							FontSize="16"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="9,0,115,32"
+							Text="MSG/HUMID"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_157"
+						 AbsoluteLayout.LayoutBounds="210,5,78,18"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_156"
+							 AbsoluteLayout.LayoutBounds="60,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36"
+								Source="rectangle_36.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14"
+									Source="line_14.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15"
+									Source="line_15.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_155"
+							 AbsoluteLayout.LayoutBounds="30,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek1"
+								Source="rectangle_36_ek1.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek1"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek1"
+									Source="line_14_ek1.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek1"
+									Source="line_15_ek1.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_154"
+							 AbsoluteLayout.LayoutBounds="0,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek2"
+								Source="rectangle_36_ek2.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek2"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek2"
+									Source="line_14_ek2.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek2"
+									Source="line_15_ek2.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_166"
+				 AbsoluteLayout.LayoutBounds="736,265,302,103"
+				 >
+
+				<Image x:Name="rectangle_33_ek1"
+					Source="rectangle_33_ek1.png"
+					AbsoluteLayout.LayoutBounds="0,0,302,103" />
+				<Label x:Name="_25"
+					FontFamily="Red Hat Display"
+					HorizontalTextAlignment="Center"
+					FontSize="40"
+					TextColor="#ededed"
+					AbsoluteLayout.LayoutBounds="8,37,53,81"
+					Text="25"
+				 />
+
+				<AbsoluteLayout x:Name="group_158_ek1"
+					 AbsoluteLayout.LayoutBounds="0,0,302,28"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_151_ek1"
+						 AbsoluteLayout.LayoutBounds="0,0,302,28"
+						 >
+
+						<Image x:Name="rectangle_35_ek1"
+							Source="rectangle_35_ek1.png"
+							AbsoluteLayout.LayoutBounds="0,0,302,28" />
+						<Label x:Name="msg_temp"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center"
+							FontSize="16"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="13,0,107,32"
+							Text="MSG/TEMP"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_157_ek1"
+						 AbsoluteLayout.LayoutBounds="210,5,78,18"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_156_ek1"
+							 AbsoluteLayout.LayoutBounds="60,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek3"
+								Source="rectangle_36_ek3.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek3"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek3"
+									Source="line_14_ek3.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek3"
+									Source="line_15_ek3.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_155_ek1"
+							 AbsoluteLayout.LayoutBounds="30,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek4"
+								Source="rectangle_36_ek4.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek4"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek4"
+									Source="line_14_ek4.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek4"
+									Source="line_15_ek4.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_154_ek1"
+							 AbsoluteLayout.LayoutBounds="0,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek5"
+								Source="rectangle_36_ek5.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek5"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek5"
+									Source="line_14_ek5.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek5"
+									Source="line_15_ek5.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_167"
+				 AbsoluteLayout.LayoutBounds="736,388,302,103"
+				 >
+
+				<Image x:Name="rectangle_33_ek2"
+					Source="rectangle_33_ek2.png"
+					AbsoluteLayout.LayoutBounds="0,0,302,103" />
+
+				<AbsoluteLayout x:Name="group_158_ek2"
+					 AbsoluteLayout.LayoutBounds="0,0,302,28"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_151_ek2"
+						 AbsoluteLayout.LayoutBounds="0,0,302,28"
+						 >
+
+						<Image x:Name="rectangle_35_ek2"
+							Source="rectangle_35_ek2.png"
+							AbsoluteLayout.LayoutBounds="0,0,302,28" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_157_ek2"
+						 AbsoluteLayout.LayoutBounds="210,5,78,18"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_156_ek2"
+							 AbsoluteLayout.LayoutBounds="60,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek6"
+								Source="rectangle_36_ek6.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek6"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek6"
+									Source="line_14_ek6.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek6"
+									Source="line_15_ek6.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_155_ek2"
+							 AbsoluteLayout.LayoutBounds="30,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek7"
+								Source="rectangle_36_ek7.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek7"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek7"
+									Source="line_14_ek7.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek7"
+									Source="line_15_ek7.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_154_ek2"
+							 AbsoluteLayout.LayoutBounds="0,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek8"
+								Source="rectangle_36_ek8.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek8"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek8"
+									Source="line_14_ek8.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek8"
+									Source="line_15_ek8.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_164"
+				 AbsoluteLayout.LayoutBounds="416,388,302,220"
+				 >
+
+				<Image x:Name="rectangle_34"
+					Source="rectangle_34.png"
+					AbsoluteLayout.LayoutBounds="0,0,302,220" />
+
+				<AbsoluteLayout x:Name="group_159"
+					 AbsoluteLayout.LayoutBounds="0,0,302,28"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_151_ek3"
+						 AbsoluteLayout.LayoutBounds="0,0,302,28"
+						 >
+
+						<Image x:Name="rectangle_35_ek3"
+							Source="rectangle_35_ek3.png"
+							AbsoluteLayout.LayoutBounds="0,0,302,28" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_157_ek3"
+						 AbsoluteLayout.LayoutBounds="210,5,78,18"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_156_ek3"
+							 AbsoluteLayout.LayoutBounds="60,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek9"
+								Source="rectangle_36_ek9.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek9"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek9"
+									Source="line_14_ek9.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek9"
+									Source="line_15_ek9.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_155_ek3"
+							 AbsoluteLayout.LayoutBounds="30,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek10"
+								Source="rectangle_36_ek10.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek10"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek10"
+									Source="line_14_ek10.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek10"
+									Source="line_15_ek10.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_154_ek3"
+							 AbsoluteLayout.LayoutBounds="0,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek11"
+								Source="rectangle_36_ek11.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek11"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek11"
+									Source="line_14_ek11.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek11"
+									Source="line_15_ek11.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_162"
+					 AbsoluteLayout.LayoutBounds="69,80,164.0009765625,110"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_160"
+						 AbsoluteLayout.LayoutBounds="0,0,164.0009765625,82.0009765625"
+						 >
+
+						<Image x:Name="subtraction_5"
+							Source="subtraction_5.png"
+							AbsoluteLayout.LayoutBounds="0,0,164,82" />
+						<Image x:Name="subtraction_4"
+							Source="subtraction_4.png"
+							AbsoluteLayout.LayoutBounds="0,0,137.09,82" />
+					</AbsoluteLayout>
+
+					<Label x:Name="_70_ek1"
+						FontFamily="Red Hat Display"
+						HorizontalTextAlignment="Center"
+						FontSize="32"
+						TextColor="#ededed"
+						AbsoluteLayout.LayoutBounds="56,57,47,65"
+						Text="70"
+					 />
+
+					<AbsoluteLayout x:Name="group_161"
+						 AbsoluteLayout.LayoutBounds="0,89,164,21"
+						 >
+
+						<Label x:Name="_0"
+							FontFamily="Red Hat Display"
+							HorizontalTextAlignment="Center"
+							FontSize="12"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="-2,-4,36,29"
+							Text="0"
+						 />
+						<Label x:Name="_100"
+							FontFamily="Red Hat Display"
+							HorizontalTextAlignment="Center"
+							FontSize="12"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="131,-4,36,29"
+							Text="100"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_165"
+				 AbsoluteLayout.LayoutBounds="736,511,302,220"
+				 >
+
+				<Image x:Name="rectangle_34_ek1"
+					Source="rectangle_34_ek1.png"
+					AbsoluteLayout.LayoutBounds="0,0,302,220" />
+
+				<AbsoluteLayout x:Name="group_159_ek1"
+					 AbsoluteLayout.LayoutBounds="0,0,302,28"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_151_ek4"
+						 AbsoluteLayout.LayoutBounds="0,0,302,28"
+						 >
+
+						<Image x:Name="rectangle_35_ek4"
+							Source="rectangle_35_ek4.png"
+							AbsoluteLayout.LayoutBounds="0,0,302,28" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="group_157_ek4"
+						 AbsoluteLayout.LayoutBounds="210,5,78,18"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_156_ek4"
+							 AbsoluteLayout.LayoutBounds="60,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek12"
+								Source="rectangle_36_ek12.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek12"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek12"
+									Source="line_14_ek12.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek12"
+									Source="line_15_ek12.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_155_ek4"
+							 AbsoluteLayout.LayoutBounds="30,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek13"
+								Source="rectangle_36_ek13.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek13"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek13"
+									Source="line_14_ek13.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek13"
+									Source="line_15_ek13.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="group_154_ek4"
+							 AbsoluteLayout.LayoutBounds="0,0,18,18"
+							 >
+
+							<Image x:Name="rectangle_36_ek14"
+								Source="rectangle_36_ek14.png"
+								AbsoluteLayout.LayoutBounds="0,0,18,18" />
+
+							<AbsoluteLayout x:Name="group_153_ek14"
+								 AbsoluteLayout.LayoutBounds="0,0,18,18"
+								 >
+
+								<Image x:Name="line_14_ek14"
+									Source="line_14_ek14.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+								<Image x:Name="line_15_ek14"
+									Source="line_15_ek14.png"
+									AbsoluteLayout.LayoutBounds="0,0,18.71,18.71" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_162_ek1"
+					 AbsoluteLayout.LayoutBounds="52,80,181.0009765625,110"
+					 >
+
+
+					<AbsoluteLayout x:Name="group_160_ek1"
+						 AbsoluteLayout.LayoutBounds="0,0,181.0009765625,82.5"
+						 >
+
+						<Image x:Name="subtraction_5_ek1"
+							Source="subtraction_5_ek1.png"
+							AbsoluteLayout.LayoutBounds="17,0,164,82" />
+						<Image x:Name="mask_group_1"
+							Source="mask_group_1.png"
+							AbsoluteLayout.LayoutBounds="0,7,96.5,76" />
+					</AbsoluteLayout>
+
+					<Label x:Name="_25_ek1"
+						FontFamily="Red Hat Display"
+						HorizontalTextAlignment="Center"
+						FontSize="32"
+						TextColor="#ededed"
+						AbsoluteLayout.LayoutBounds="75,57,43,65"
+						Text="25"
+					 />
+
+					<AbsoluteLayout x:Name="group_161_ek1"
+						 AbsoluteLayout.LayoutBounds="17,89,164,21"
+						 >
+
+						<Label x:Name="_0_ek1"
+							FontFamily="Red Hat Display"
+							HorizontalTextAlignment="Center"
+							FontSize="12"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="-2,-4,36,29"
+							Text="0"
+						 />
+						<Label x:Name="_100_ek1"
+							FontFamily="Red Hat Display"
+							HorizontalTextAlignment="Center"
+							FontSize="12"
+							TextColor="#ededed"
+							AbsoluteLayout.LayoutBounds="131,-4,36,29"
+							Text="100"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+			<Image x:Name="rectangle_39"
+				Source="rectangle_39.png"
+				AbsoluteLayout.LayoutBounds="416,98,260,30" />
+			<Image x:Name="rectangle_42"
+				Source="rectangle_42.png"
+				AbsoluteLayout.LayoutBounds="1106,46,260,30" />
+			<Image x:Name="rectangle_40"
+				Source="rectangle_40.png"
+				AbsoluteLayout.LayoutBounds="416,149,138,30" />
+			<Image x:Name="rectangle_41"
+				Source="rectangle_41.png"
+				AbsoluteLayout.LayoutBounds="1106,97,138,30" />
+			<Image x:Name="rectangle_43"
+				Source="rectangle_43.png"
+				AbsoluteLayout.LayoutBounds="1106,148,138,30" />
+			<Image x:Name="ellipse_7"
+				Source="ellipse_7.png"
+				AbsoluteLayout.LayoutBounds="757,434,34,34" />
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

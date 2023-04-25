@@ -1,0 +1,156 @@
+<ContentPage x:Class="SEALMobile.create_edge___1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="create_edge___1">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__create_edge___1"
+				Color="#000000"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+			<Label x:Name="create_edge"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="24"
+				TextColor="#ffffff"
+				AbsoluteLayout.LayoutBounds="38,75,122,78"
+				Text="CREATE
+EDGE"
+			 />
+
+			<AbsoluteLayout x:Name="group_11"
+				 AbsoluteLayout.LayoutBounds="38,197,284,62"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_2"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+					<Image x:Name="line_2"
+						Source="line_2.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+					<Label x:Name="name"
+						FontFamily="Red Hat Display"
+						Opacity="0.5"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,-4,78,40"
+						Text="NAME"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="edge_name"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,-4,94,24"
+					Text="EDGE NAME"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_12"
+				 AbsoluteLayout.LayoutBounds="38,291,284,62"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_2_ek1"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+					<Image x:Name="line_2_ek1"
+						Source="line_2_ek1.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+					<Label x:Name="details"
+						FontFamily="Red Hat Display"
+						Opacity="0.5"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,-4,106,40"
+						Text="DETAILS"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="description"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,-4,106,24"
+					Text="DESCRIPTION"
+				 />
+			</AbsoluteLayout>
+
+			<Image x:Name="cyblion___white_icon___edge"
+				Source="cyblion___white_icon___edge.png"
+				AbsoluteLayout.LayoutBounds="112,460,248,370" />
+
+			<AbsoluteLayout x:Name="secondary_button"
+				 AbsoluteLayout.LayoutBounds="38,593,284,52"
+				 >
+
+				<BoxView x:Name="rectangle_5"
+					CornerRadius="26"
+					Color="#09a8ea"
+					AbsoluteLayout.LayoutBounds="0,0,286,54" />
+				<Label x:Name="create"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="50,9,184,40"
+					Text="CREATE"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_139"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<BoxView x:Name="rectangle_8"
+						Opacity="0"
+						Color="#ededed"
+						AbsoluteLayout.LayoutBounds="0,0,360,60" />
+
+					<AbsoluteLayout x:Name="group_44"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion___white_icon___arrows"
+							Source="cyblion___white_icon___arrows.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___white"
+						Source="cyblion_logo_name___white.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___white"
+						Source="cyblion_logo_icon___white.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+    x:Class="SEALMobile.Views.LoginPage"
+
+	NavigationPage.HasNavigationBar="False"
+	NavigationPage.HasBackButton="True">
+
+    <!--<NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+
+            <Image Source="cyblion_logo_icon___main.png" />
+            <Image Source="cyblion_logo_name___main.png" />
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>-->
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,50" BackgroundColor="#e4e4e4">
+
+                <Image Source="cyblion___neo_logo_horizontal___main.png"
+					   HorizontalOptions="Start" Margin="50,0" VerticalOptions="StartAndExpand"
+					   />
+
+
+                <StackLayout Margin="0,0,0,100"
+							 VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+
+                    <Label x:Name="username_ek1"
+					   FontFamily="Red Hat Display"
+					   FontSize="12"
+					   TextColor="#000000"
+					   Text="USERNAME"/>
+
+                    <Entry x:Name="user_value"
+					   FontFamily="Red Hat Display"
+					   Background="Transparent"
+					   FontSize="20"
+					   TextTransform="Lowercase"
+					   TextColor="#000000"
+					   Placeholder="USERNAME"/>
+
+                    <Image Source="line_2.png" />
+
+                    <Label x:Name="password_ek1"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#000000"
+					Text="PASSWORD"/>
+
+                    <Entry x:Name="pass_value"
+						FontFamily="Red Hat Display"
+						FontSize="20"
+						IsPassword="True"
+						Background="Transparent"
+						TextColor="#000000"
+						Placeholder="PASSWORD"/>
+
+                    <Image Source="line_2.png"/>
+
+                </StackLayout>
+
+
+                <StackLayout Margin="50,0,50,150"
+							 HorizontalOptions="Center" VerticalOptions="EndAndExpand" >
+                    <Label x:Name="alertLabel"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center"
+							VerticalTextAlignment="Center"
+							Margin="0,10"
+							FontSize="16"
+							TextColor="#df0000"
+							BackgroundColor="Transparent"
+							Text=""
+							HeightRequest="50"
+							/>
+
+                    <Button x:Name="log_in"
+							CornerRadius="26"
+							Background="#000000"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							HorizontalOptions="Center"
+							VerticalOptions="EndAndExpand"
+							FontSize="20"
+							TextColor="#ffffff"
+							HeightRequest="52" WidthRequest="284"
+							Text="LOG IN"
+							Clicked="Handle_Login"
+							/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

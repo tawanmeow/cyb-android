@@ -1,0 +1,87 @@
+<ContentPage x:Class="SEALMobile.web_1280___1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="web_1280___1">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<Label x:Name="cyblion_ek2"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="60"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="485,142,345,121"
+				Text="CYBLION"
+			 />
+			<Label x:Name="privacy_as_a_service_for_iot_project"
+				FontFamily="Red Hat Display"
+				FontSize="32"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="331,236,640,65"
+				Text="Privacy as a Service for IOT Project"
+			 />
+			<Image x:Name="rectangle_61"
+				Source="rectangle_61.png"
+				AbsoluteLayout.LayoutBounds="214,338,427,181" />
+			<Label x:Name="mobile_app"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="24"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="247,369,157,48"
+				Text="Mobile App"
+			 />
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

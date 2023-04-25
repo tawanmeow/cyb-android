@@ -1,0 +1,438 @@
+<ContentPage x:Class="SEALMobile.2__homepage___1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="2__homepage___1">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+			<Label x:Name="my_project"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="24"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="38,75,143,78"
+				Text="MY
+PROJECT"
+			 />
+
+			<AbsoluteLayout x:Name="project_card"
+				 AbsoluteLayout.LayoutBounds="38,180,136,160"
+				 >
+
+				<Image x:Name="rectangle_7"
+					Source="rectangle_7.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,154,178" />
+
+				<AbsoluteLayout x:Name="group_6"
+					 AbsoluteLayout.LayoutBounds="9,16,118,129"
+					 >
+
+					<Label x:Name="modified_date_oct_22__2022"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Right"
+						Opacity="0.5"
+						FontSize="6"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="69,109,53,20"
+						Text="Modified Date
+OCT 22, 2022"
+					 />
+
+					<AbsoluteLayout x:Name="group_5"
+						 AbsoluteLayout.LayoutBounds="0,0,118,80"
+						 >
+
+						<Label x:Name="project_for_electrical_power_manufacturer_in_zone_a__for_next_quarter_of_2023_"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="8"
+							TextColor="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,33,127,49"
+							Text="Project for Electrical Power Manufacturer in Zone A. For next Quarter of 2023 "
+						 />
+						<Image x:Name="line_3"
+							Source="line_3.png"
+							AbsoluteLayout.LayoutBounds="1,28,53,2" />
+						<Label x:Name="project_a"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="16"
+							TextColor="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,-4,131,32"
+							Text="Project A"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="project_card_ek1"
+				 AbsoluteLayout.LayoutBounds="186,356,136,160"
+				 >
+
+				<Image x:Name="rectangle_7_ek1"
+					Source="rectangle_7_ek1.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,154,178" />
+
+				<AbsoluteLayout x:Name="group_6_ek1"
+					 AbsoluteLayout.LayoutBounds="9,16,118,129"
+					 >
+
+					<Label x:Name="modified_date_oct_22__2022_ek1"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Right"
+						FontSize="6"
+						TextColor="#b0aeaf"
+						AbsoluteLayout.LayoutBounds="69,109,53,20"
+						Text="Modified Date
+OCT 22, 2022"
+					 />
+
+					<AbsoluteLayout x:Name="group_5_ek1"
+						 AbsoluteLayout.LayoutBounds="0,0,118,80"
+						 >
+
+						<Label x:Name="project_for_electrical_power_manufacturer_in_zone_d__for_next_quarter_of_2023_"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="8"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="0,33,127,49"
+							Text="Project for Electrical Power Manufacturer in Zone D. For next Quarter of 2023 "
+						 />
+						<Image x:Name="line_3_ek1"
+							Source="line_3_ek1.png"
+							AbsoluteLayout.LayoutBounds="1,28,53,2" />
+						<Label x:Name="project_d"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="16"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="0,-4,131,32"
+							Text="Project D"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="project_card_ek2"
+				 AbsoluteLayout.LayoutBounds="38,356,136,160"
+				 >
+
+				<Image x:Name="rectangle_7_ek2"
+					Source="rectangle_7_ek2.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,154,178" />
+
+				<AbsoluteLayout x:Name="group_6_ek2"
+					 AbsoluteLayout.LayoutBounds="9,16,118,129"
+					 >
+
+					<Label x:Name="modified_date_oct_22__2022_ek2"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Right"
+						FontSize="6"
+						TextColor="#b0aeaf"
+						AbsoluteLayout.LayoutBounds="69,109,53,20"
+						Text="Modified Date
+OCT 22, 2022"
+					 />
+
+					<AbsoluteLayout x:Name="group_5_ek2"
+						 AbsoluteLayout.LayoutBounds="0,0,118,80"
+						 >
+
+						<Label x:Name="project_for_electrical_power_manufacturer_in_zone_c__for_next_quarter_of_2023_"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="8"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="0,33,127,49"
+							Text="Project for Electrical Power Manufacturer in Zone C. For next Quarter of 2023 "
+						 />
+						<Image x:Name="line_3_ek2"
+							Source="line_3_ek2.png"
+							AbsoluteLayout.LayoutBounds="1,28,53,2" />
+						<Label x:Name="project_c"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="16"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="0,-4,131,32"
+							Text="Project C"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="project_card_ek3"
+				 AbsoluteLayout.LayoutBounds="186,180,136,160"
+				 >
+
+				<Image x:Name="rectangle_7_ek3"
+					Source="rectangle_7_ek3.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,154,178" />
+
+				<AbsoluteLayout x:Name="group_6_ek3"
+					 AbsoluteLayout.LayoutBounds="9,16,118,129"
+					 >
+
+					<Label x:Name="modified_date_oct_22__2022_ek3"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Right"
+						FontSize="6"
+						TextColor="#b0aeaf"
+						AbsoluteLayout.LayoutBounds="69,109,53,20"
+						Text="Modified Date
+OCT 22, 2022"
+					 />
+
+					<AbsoluteLayout x:Name="group_5_ek3"
+						 AbsoluteLayout.LayoutBounds="0,0,118,80"
+						 >
+
+						<Label x:Name="project_for_electrical_power_manufacturer_in_zone_b__for_next_quarter_of_2023_"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="8"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="0,33,127,49"
+							Text="Project for Electrical Power Manufacturer in Zone B. For next Quarter of 2023 "
+						 />
+						<Image x:Name="line_3_ek3"
+							Source="line_3_ek3.png"
+							AbsoluteLayout.LayoutBounds="1,28,53,2" />
+						<Label x:Name="project_b"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="16"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="0,-4,131,32"
+							Text="Project B"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+			<Image x:Name="rectangle_8"
+				Source="rectangle_8.png"
+				AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+			<AbsoluteLayout x:Name="group_7"
+				 AbsoluteLayout.LayoutBounds="38,22,20,16"
+				 >
+
+				<Image x:Name="line_6"
+					Source="line_6.png"
+					AbsoluteLayout.LayoutBounds="0,15,20,2" />
+				<Image x:Name="line_5"
+					Source="line_5.png"
+					AbsoluteLayout.LayoutBounds="0,7,20,2" />
+				<Image x:Name="line_4"
+					Source="line_4.png"
+					AbsoluteLayout.LayoutBounds="0,-1,20,2" />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_10"
+				 AbsoluteLayout.LayoutBounds="186,583,136,62"
+				 >
+
+				<Image x:Name="rectangle_9"
+					Source="rectangle_9.png"
+					AbsoluteLayout.LayoutBounds="-9,-6,154,80" />
+
+				<AbsoluteLayout x:Name="group_9"
+					 AbsoluteLayout.LayoutBounds="20,16,97,31"
+					 >
+
+					<Label x:Name="create_project"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="12"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="36,-4,72,39"
+						Text="CREATE
+PROJECT"
+					 />
+
+					<AbsoluteLayout x:Name="group_8"
+						 AbsoluteLayout.LayoutBounds="0,6,20,20"
+						 >
+
+						<Image x:Name="line_7"
+							Source="line_7.png"
+							AbsoluteLayout.LayoutBounds="0,9,20,2.5" />
+						<Image x:Name="line_8"
+							Source="line_8.png"
+							AbsoluteLayout.LayoutBounds="9,0,2.5,20" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_102"
+				 AbsoluteLayout.LayoutBounds="0,680,360,80"
+				 >
+
+				<Image x:Name="rectangle_6"
+					Source="rectangle_6.png"
+					AbsoluteLayout.LayoutBounds="0,0,360,80" />
+
+				<AbsoluteLayout x:Name="nav_menu_icon"
+					 AbsoluteLayout.LayoutBounds="38,11,62,53"
+					 >
+
+					<Label x:Name="home"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#09a8ea"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="HOME"
+					 />
+					<Image x:Name="cyblion___sky_icon___home"
+						Source="cyblion___sky_icon___home.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek1"
+					 AbsoluteLayout.LayoutBounds="186,11,62,53"
+					 >
+
+					<Label x:Name="data"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="DATA"
+					 />
+					<Image x:Name="cyblion___white_icon___dashboards"
+						Source="cyblion___white_icon___dashboards.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek2"
+					 AbsoluteLayout.LayoutBounds="260,11,62,53"
+					 >
+
+					<Label x:Name="profile"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="PROFILE"
+					 />
+					<Image x:Name="cyblion___white_icon___avatar"
+						Source="cyblion___white_icon___avatar.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek3"
+					 AbsoluteLayout.LayoutBounds="112,11,62,53"
+					 >
+
+					<Label x:Name="edges"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="EDGES"
+					 />
+					<Image x:Name="cyblion___white_icon___edge"
+						Source="cyblion___white_icon___edge.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_101"
+				 AbsoluteLayout.LayoutBounds="186,10,136,40"
+				 >
+
+				<Image x:Name="cyblion_logo_name___main"
+					Source="cyblion_logo_name___main.png"
+					AbsoluteLayout.LayoutBounds="27,7,109,26" />
+				<Image x:Name="cyblion_logo_icon___main"
+					Source="cyblion_logo_icon___main.png"
+					AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

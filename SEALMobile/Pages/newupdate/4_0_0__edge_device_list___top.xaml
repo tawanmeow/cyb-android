@@ -1,0 +1,604 @@
+<ContentPage x:Class="SEALMobile.4_0_0__edge_device_list___top"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="4_0_0__edge_device_list___top">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_209"
+				 AbsoluteLayout.LayoutBounds="0,0,360,760"
+				 >
+
+				<Image x:Name="rectangle_60"
+					Source="rectangle_60.png"
+					AbsoluteLayout.LayoutBounds="0,0,360,760" />
+
+				<AbsoluteLayout x:Name="group_203"
+					 AbsoluteLayout.LayoutBounds="0,0,360,760"
+					 >
+
+					<Image x:Name="rectangle_58"
+						Source="rectangle_58.png"
+						AbsoluteLayout.LayoutBounds="0,0,360,760" />
+
+					<AbsoluteLayout x:Name="group_36"
+						 AbsoluteLayout.LayoutBounds="38,79,284,105"
+						 >
+
+
+						<AbsoluteLayout x:Name="group_27"
+							 AbsoluteLayout.LayoutBounds="0,0,167,105"
+							 >
+
+							<Label x:Name="project_a_ek3"
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								FontSize="12"
+								TextColor="#000000"
+								AbsoluteLayout.LayoutBounds="0,85,147,24"
+								Text="Project A"
+							 />
+
+							<AbsoluteLayout x:Name="group_26"
+								 AbsoluteLayout.LayoutBounds="0,0,167,73"
+								 >
+
+								<Image x:Name="line_11_ek2"
+									Source="line_11_ek2.png"
+									AbsoluteLayout.LayoutBounds="1,72,62,2.5" />
+								<Label x:Name="edge_device_list"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									FontSize="24"
+									TextColor="#000000"
+									AbsoluteLayout.LayoutBounds="0,-4,184,78"
+									Text="EDGE
+DEVICE LIST"
+								 />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+						<Image x:Name="cyblion_icon___edge"
+							Source="cyblion_icon___edge.png"
+							AbsoluteLayout.LayoutBounds="222,0,62,62" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="edge_card___vertical"
+						 AbsoluteLayout.LayoutBounds="186,301,136,160"
+						 >
+
+						<Image x:Name="rectangle_21_ek1"
+							Source="rectangle_21_ek1.png"
+							AbsoluteLayout.LayoutBounds="-15,-12,166,190" />
+
+						<AbsoluteLayout x:Name="group_58"
+							 AbsoluteLayout.LayoutBounds="10,14,103,80"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_57"
+								 AbsoluteLayout.LayoutBounds="0,0,103,80"
+								 >
+
+
+								<AbsoluteLayout x:Name="group_56"
+									 AbsoluteLayout.LayoutBounds="0,40,103,40"
+									 >
+
+									<Label x:Name="create_edge_from_mobile_for_machine_b"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										Opacity="0.7"
+										FontSize="8"
+										TextColor="#000000"
+										AbsoluteLayout.LayoutBounds="0,16,112,26"
+										Text="Create edge from mobile
+for machine B"
+									 />
+									<Label x:Name="edge_2"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="12"
+										TextColor="#000000"
+										AbsoluteLayout.LayoutBounds="0,-4,60,24"
+										Text="EDGE 2"
+									 />
+								</AbsoluteLayout>
+
+								<Image x:Name="cyblion___sky_icon___edge"
+									Source="cyblion___sky_icon___edge.png"
+									AbsoluteLayout.LayoutBounds="0,0,28,28" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="sync_status_ek2"
+							 AbsoluteLayout.LayoutBounds="47,125,79,21"
+							 >
+
+							<Image x:Name="rectangle_29_ek2"
+								Source="rectangle_29_ek2.png"
+								AbsoluteLayout.LayoutBounds="0,0,79,21" />
+
+							<AbsoluteLayout x:Name="group_105_ek2"
+								 AbsoluteLayout.LayoutBounds="6,4,67,13"
+								 >
+
+								<Label x:Name="synced_ek1"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Center"
+									FontSize="10"
+									TextColor="#ffffff"
+									AbsoluteLayout.LayoutBounds="19,-4,51,20"
+									Text="SYNCED"
+								 />
+								<Image x:Name="cyblion___white_icon___synced_ek1"
+									Source="cyblion___white_icon___synced_ek1.png"
+									AbsoluteLayout.LayoutBounds="0,0,13,13" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="edge_card___vertical_ek1"
+						 AbsoluteLayout.LayoutBounds="38,477,136,160"
+						 >
+
+						<Image x:Name="rectangle_21_ek2"
+							Source="rectangle_21_ek2.png"
+							AbsoluteLayout.LayoutBounds="-15,-12,166,190" />
+
+						<AbsoluteLayout x:Name="group_58_ek1"
+							 AbsoluteLayout.LayoutBounds="10,14,103,80"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_57_ek1"
+								 AbsoluteLayout.LayoutBounds="0,0,103,80"
+								 >
+
+
+								<AbsoluteLayout x:Name="group_56_ek1"
+									 AbsoluteLayout.LayoutBounds="0,40,103,40"
+									 >
+
+									<Label x:Name="create_edge_from_mobile_for_machine_b_ek1"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										Opacity="0.7"
+										FontSize="8"
+										TextColor="#000000"
+										AbsoluteLayout.LayoutBounds="0,16,112,26"
+										Text="Create edge from mobile
+for machine B"
+									 />
+									<Label x:Name="edge_3"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="12"
+										TextColor="#000000"
+										AbsoluteLayout.LayoutBounds="0,-4,61,24"
+										Text="EDGE 3"
+									 />
+								</AbsoluteLayout>
+
+								<Image x:Name="cyblion___sky_icon___edge_ek1"
+									Source="cyblion___sky_icon___edge_ek1.png"
+									AbsoluteLayout.LayoutBounds="0,0,28,28" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="sync_status_ek3"
+							 AbsoluteLayout.LayoutBounds="47,125,79,21"
+							 >
+
+							<Image x:Name="rectangle_29_ek3"
+								Source="rectangle_29_ek3.png"
+								AbsoluteLayout.LayoutBounds="0,0,79,21" />
+
+							<AbsoluteLayout x:Name="group_105_ek3"
+								 AbsoluteLayout.LayoutBounds="6,4,67,13"
+								 >
+
+								<Label x:Name="synced_ek2"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Center"
+									FontSize="10"
+									TextColor="#ffffff"
+									AbsoluteLayout.LayoutBounds="19,-4,51,20"
+									Text="SYNCED"
+								 />
+								<Image x:Name="cyblion___white_icon___synced_ek2"
+									Source="cyblion___white_icon___synced_ek2.png"
+									AbsoluteLayout.LayoutBounds="0,0,13,13" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="cloud_card_ek2"
+						 AbsoluteLayout.LayoutBounds="38,205,284,80"
+						 >
+
+						<Image x:Name="rectangle_26_ek3"
+							Source="rectangle_26_ek3.png"
+							AbsoluteLayout.LayoutBounds="-15,-12,314,110" />
+						<Image x:Name="cyblion___sky_icon___cloud_ek1"
+							Source="cyblion___sky_icon___cloud_ek1.png"
+							AbsoluteLayout.LayoutBounds="14,20,40,40" />
+
+						<AbsoluteLayout x:Name="group_83_ek2"
+							 AbsoluteLayout.LayoutBounds="74,27,136,28"
+							 >
+
+							<Label x:Name="cloud_for_project_a_ek2"
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								Opacity="0.6"
+								FontSize="8"
+								TextColor="#000000"
+								AbsoluteLayout.LayoutBounds="0,14,145,16"
+								Text="Cloud for Project A"
+							 />
+							<Label x:Name="fhe___cloud_ek2"
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								HorizontalTextAlignment="Center"
+								FontSize="12"
+								TextColor="#000000"
+								AbsoluteLayout.LayoutBounds="-2,-4,95,24"
+								Text="FHE - CLOUD"
+							 />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="sync_status_ek4"
+							 AbsoluteLayout.LayoutBounds="197,30,79,21"
+							 >
+
+							<Image x:Name="rectangle_29_ek4"
+								Source="rectangle_29_ek4.png"
+								AbsoluteLayout.LayoutBounds="0,0,79,21" />
+
+							<AbsoluteLayout x:Name="group_105_ek4"
+								 AbsoluteLayout.LayoutBounds="6,4,67,13"
+								 >
+
+								<Label x:Name="synced_ek3"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Center"
+									FontSize="10"
+									TextColor="#ffffff"
+									AbsoluteLayout.LayoutBounds="19,-4,51,20"
+									Text="SYNCED"
+								 />
+								<Image x:Name="cyblion___white_icon___synced_ek3"
+									Source="cyblion___white_icon___synced_ek3.png"
+									AbsoluteLayout.LayoutBounds="0,0,13,13" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="edge_cards___unsync"
+						 AbsoluteLayout.LayoutBounds="38,301,136,160"
+						 >
+
+						<Image x:Name="rectangle_21_ek3"
+							Source="rectangle_21_ek3.png"
+							AbsoluteLayout.LayoutBounds="-15,-12,166,190" />
+
+						<AbsoluteLayout x:Name="group_58_ek2"
+							 AbsoluteLayout.LayoutBounds="10,14,103,80"
+							 >
+
+
+							<AbsoluteLayout x:Name="group_57_ek2"
+								 AbsoluteLayout.LayoutBounds="0,0,103,80"
+								 >
+
+
+								<AbsoluteLayout x:Name="group_56_ek2"
+									 AbsoluteLayout.LayoutBounds="0,40,103,40"
+									 >
+
+									<Label x:Name="create_edge_from_mobile_for_machine_a"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										Opacity="0.7"
+										FontSize="8"
+										TextColor="#000000"
+										AbsoluteLayout.LayoutBounds="0,16,112,26"
+										Text="Create edge from mobile
+for machine A"
+									 />
+									<Label x:Name="edge_1"
+										FontFamily="Red Hat Display"
+										FontAttributes="Bold"
+										FontSize="12"
+										TextColor="#000000"
+										AbsoluteLayout.LayoutBounds="0,-4,57,24"
+										Text="EDGE 1"
+									 />
+								</AbsoluteLayout>
+
+								<Image x:Name="cyblion___grey"
+									Source="cyblion___grey.png"
+									AbsoluteLayout.LayoutBounds="0,0,28,28" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="sync_status_ek5"
+							 AbsoluteLayout.LayoutBounds="46,125,81,21"
+							 >
+
+							<Image x:Name="rectangle_29_ek5"
+								Source="rectangle_29_ek5.png"
+								AbsoluteLayout.LayoutBounds="0,0,81,21" />
+
+							<AbsoluteLayout x:Name="group_105_ek5"
+								 AbsoluteLayout.LayoutBounds="6,4,69,13"
+								 >
+
+								<Label x:Name="unsync_ek1"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									HorizontalTextAlignment="Center"
+									FontSize="10"
+									TextColor="#ffffff"
+									AbsoluteLayout.LayoutBounds="19,-4,53,20"
+									Text="UNSYNC"
+								 />
+								<Image x:Name="cyblion___white_icon___unsync_ek1"
+									Source="cyblion___white_icon___unsync_ek1.png"
+									AbsoluteLayout.LayoutBounds="0,0,13,13" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="new_edge_ek1"
+						 AbsoluteLayout.LayoutBounds="186,477,136,160"
+						 >
+
+						<Image x:Name="rectangle_21_ek4"
+							Source="rectangle_21_ek4.png"
+							AbsoluteLayout.LayoutBounds="-15,-12,166,190" />
+
+						<AbsoluteLayout x:Name="group_60_ek1"
+							 AbsoluteLayout.LayoutBounds="10,34,117,96"
+							 >
+
+							<Label x:Name="create_new_edges_ek1"
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								HorizontalTextAlignment="Center"
+								FontSize="12"
+								TextColor="#ffffff"
+								AbsoluteLayout.LayoutBounds="-2,56,122,44"
+								Text="CREATE
+NEW EDGES"
+							 />
+
+							<AbsoluteLayout x:Name="group_59_ek1"
+								 AbsoluteLayout.LayoutBounds="41,0,36,36"
+								 >
+
+								<Image x:Name="line_7_ek3"
+									Source="line_7_ek3.png"
+									AbsoluteLayout.LayoutBounds="0,17,36,2.5" />
+								<Image x:Name="line_8_ek3"
+									Source="line_8_ek3.png"
+									AbsoluteLayout.LayoutBounds="17,0,2.5,36" />
+							</AbsoluteLayout>
+
+						</AbsoluteLayout>
+
+						<Image x:Name="cyblion___white_icon___edge_ek8"
+							Source="cyblion___white_icon___edge_ek8.png"
+							AbsoluteLayout.LayoutBounds="102,54,34.41,88.67" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_114"
+				 AbsoluteLayout.LayoutBounds="0,680,360,80"
+				 >
+
+				<Image x:Name="rectangle_6_ek7"
+					Source="rectangle_6_ek7.png"
+					AbsoluteLayout.LayoutBounds="0,0,360,80" />
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek28"
+					 AbsoluteLayout.LayoutBounds="38,11,62,53"
+					 >
+
+					<Label x:Name="home_ek7"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="HOME"
+					 />
+					<Image x:Name="cyblion___white_icon___home_ek3"
+						Source="cyblion___white_icon___home_ek3.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek29"
+					 AbsoluteLayout.LayoutBounds="186,11,62,53"
+					 >
+
+					<Label x:Name="data_ek7"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="DATA"
+					 />
+					<Image x:Name="cyblion___white_icon___dashboards_ek7"
+						Source="cyblion___white_icon___dashboards_ek7.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek30"
+					 AbsoluteLayout.LayoutBounds="260,11,62,53"
+					 >
+
+					<Label x:Name="profile_ek7"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="PROFILE"
+					 />
+					<Image x:Name="cyblion___white_icon___avatar_ek6"
+						Source="cyblion___white_icon___avatar_ek6.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_menu_icon_ek31"
+					 AbsoluteLayout.LayoutBounds="112,11,62,53"
+					 >
+
+					<Label x:Name="edges_ek7"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="10"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="-2,36,67,20"
+						Text="EDGES"
+					 />
+					<Image x:Name="cyblion___white_icon___edge_ek9"
+						Source="cyblion___white_icon___edge_ek9.png"
+						AbsoluteLayout.LayoutBounds="13,0,36,36" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_130"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119_ek4"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<Image x:Name="rectangle_8_ek7"
+						Source="rectangle_8_ek7.png"
+						AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+					<AbsoluteLayout x:Name="group_44_ek4"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion_icon___arrows_ek4"
+							Source="cyblion_icon___arrows_ek4.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104_ek6"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___main_ek7"
+						Source="cyblion_logo_name___main_ek7.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___main_ek8"
+						Source="cyblion_logo_icon___main_ek8.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

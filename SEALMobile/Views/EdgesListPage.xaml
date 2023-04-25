@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SEALMobile.Views.EdgesListPage"
+	NavigationPage.HasNavigationBar="True"
+	NavigationPage.HasBackButton="True">
+
+    <NavigationPage.TitleView  >
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+			<Image Source="cyblion___neo_logo_horizontal___main.png" />
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e4e4e4">
+            <ScrollView>
+                <StackLayout Padding="40" HorizontalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                        <StackLayout >
+                            <AbsoluteLayout x:Name="group_26_ek1"
+								 AbsoluteLayout.LayoutBounds="0,0,167,73">
+                                <Image x:Name="line_11_ek3"
+									Source="line_11_ek3.png"
+									AbsoluteLayout.LayoutBounds="1,72,62,2.5" />
+                                <Label x:Name="edge_device_list_ek1"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									FontSize="24"
+									TextColor="#000000"
+									AbsoluteLayout.LayoutBounds="0,-4,184,78"
+									Text="EDGEDEVICE LIST"
+								 />
+                            </AbsoluteLayout>
+
+                            <Label x:Name="project_name"
+								FontFamily="Red Hat Display"
+								FontAttributes="Bold"
+								FontSize="12"
+								TextColor="#000000"
+								
+								Text="Project A"
+							 />
+                        </StackLayout>
+
+                        <Image x:Name="cyblion_icon___edge_ek1"
+							Source="cyblion_icon___edge_ek1.png"
+							AbsoluteLayout.LayoutBounds="222,0,62,62" />
+                    </StackLayout>
+
+                    <StackLayout x:Name="card"
+								 HorizontalOptions="Center" VerticalOptions="Center"
+								 WidthRequest="285" HeightRequest="80">
+                        <CollectionView x:Name="cloud_collectionView"
+									ItemsSource="{Binding Cloud}"
+									ItemsLayout="VerticalGrid"
+									SelectionMode="Single"
+									BackgroundColor="Transparent"
+									SelectionChanged="cloud_ItemSelected"
+									>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout HorizontalOptions="Center">
+                                        <Frame CornerRadius="10"
+										   BackgroundColor="#ffffff"
+										   BorderColor="Black"
+										   Padding="10"
+										   HasShadow="False"
+										   Margin="5">
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="20" />
+                                                    <RowDefinition Height="20" />
+
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="40" />
+                                                    <ColumnDefinition Width="140" />
+                                                    <ColumnDefinition Width="30" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <Image x:Name="cyblion___sky_icon___cloud_ek2"
+												Source="cyblion___sky_icon___cloud_ek2.png"
+												Grid.Column="0" Grid.RowSpan="2"/>
+
+
+                                                <Label x:Name="fhe___cloud_ek3"
+													FontFamily="Red Hat Display"
+													FontAttributes="Bold"
+													HorizontalTextAlignment="Center"
+													VerticalTextAlignment="Center"
+													FontSize="12"
+													TextColor="#000000"
+													Grid.Column="1" Grid.Row="0"
+													Text="{Binding alias}"
+												 />
+
+                                                <Label x:Name="cloud_for_project_a_ek3"
+													FontFamily="Red Hat Display"
+													FontAttributes="Bold"
+													Opacity="0.6"
+													FontSize="8"
+													TextColor="#000000"
+													HorizontalTextAlignment="Center"
+													VerticalTextAlignment="Start"
+													Grid.Column="1" Grid.Row="1"
+													Text="{Binding description}"
+												 />
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+
+                    </StackLayout>
+
+                    <StackLayout x:Name="card2"
+								 HorizontalOptions="Center" VerticalOptions="Center"
+								 WidthRequest="285" HeightRequest="340">
+
+                        <CollectionView x:Name="edge_collectionView"
+									ItemsSource="{Binding Edges}"
+									ItemsLayout="VerticalGrid, 2"
+									SelectionMode="Single"
+									BackgroundColor="Transparent"
+									SelectionChanged="edge_ItemSelected"
+									>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout>
+                                        <Frame CornerRadius="10"
+										   BackgroundColor="#ffffff"
+										   BorderColor="Black"
+										   Padding="5"
+										   HasShadow="False"
+										   Margin="3">
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="50" />
+                                                    <ColumnDefinition Width="80" />
+                                                </Grid.ColumnDefinitions>
+
+
+                                                <Image x:Name="cyblion___sky_icon___edge_ek2"
+												Source="cyblion___sky_icon___edge_ek2.png"
+												HorizontalOptions="Start"
+												Grid.Column="0" Grid.RowSpan="1"
+
+												AbsoluteLayout.LayoutBounds="0,0,28,28" />
+
+                                                <Label x:Name="create_edge_from_mobile_for_machine_b_ek2"
+													FontFamily="Red Hat Display"
+													FontAttributes="Bold"
+													Opacity="0.7"
+													FontSize="8"
+													TextColor="#000000"
+													Grid.ColumnSpan="2" Grid.Row="2"
+													VerticalTextAlignment="Start"
+													AbsoluteLayout.LayoutBounds="0,16,112,26"
+													Text="{Binding description}"
+												 />
+                                                <Label x:Name="edge_2_ek1"
+													FontFamily="Red Hat Display"
+													FontAttributes="Bold"
+													FontSize="12"
+													TextColor="#000000"
+													Grid.ColumnSpan="2" Grid.Row="1"
+													VerticalTextAlignment="Center" HorizontalTextAlignment="Start"
+													AbsoluteLayout.LayoutBounds="0,-4,60,24"
+													Text="{Binding alias}"
+												 />
+
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+                    </StackLayout>
+
+                    <StackLayout Margin="0,20" x:Name="create_EDGES" HorizontalOptions="End">
+
+                        <AbsoluteLayout AbsoluteLayout.LayoutBounds="186,640,136,62">
+                            <BoxView x:Name="rectangle_9"
+									CornerRadius="15"
+									Color="#09a8ea"
+									AbsoluteLayout.LayoutBounds="0,0,136,62" />
+
+                            <AbsoluteLayout AbsoluteLayout.LayoutBounds="20,16,97,31">
+
+                                <Label x:Name="create_edge"
+									FontFamily="Red Hat Display"
+									FontAttributes="Bold"
+									FontSize="12"
+									TextColor="#ffffff"
+									AbsoluteLayout.LayoutBounds="36,-4,72,39"
+									Text="CREATE NEW EDGES"
+									/>
+
+                                <AbsoluteLayout AbsoluteLayout.LayoutBounds="0,6,20,20">
+                                    <Image x:Name="line_7"
+										Source="line_7.png"
+										AbsoluteLayout.LayoutBounds="0,9,20,2.5" />
+									<Image x:Name="line_8"
+										Source="line_8.png"
+										AbsoluteLayout.LayoutBounds="9,0,2.5,20" />
+                                </AbsoluteLayout>
+
+                            </AbsoluteLayout>
+
+                            <Button Clicked="create_new_edge_Clicked" BorderColor="Red" BorderWidth="0" HeightRequest="62" WidthRequest="136"/>
+                        </AbsoluteLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

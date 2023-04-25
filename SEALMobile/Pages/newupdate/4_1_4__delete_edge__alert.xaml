@@ -1,0 +1,166 @@
+<ContentPage x:Class="SEALMobile.4_1_4__delete_edge__alert"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="4_1_4__delete_edge__alert">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<Image x:Name="cyblion_logo_icon___white_ek4"
+				Source="cyblion_logo_icon___white_ek4.png"
+				AbsoluteLayout.LayoutBounds="112,94,136,200" />
+
+			<AbsoluteLayout x:Name="group_116_ek1"
+				 AbsoluteLayout.LayoutBounds="38,333,285,228"
+				 >
+
+				<Label x:Name="are_you_sure_to_delete_this_edge_from_project__ek1"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="-3,163,290,75"
+					Text="Are you sure to delete
+this edge from project?"
+				 />
+				<Label x:Name="you_are_deleting_edge_"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="36"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="-5,-4,289,168"
+					Text="YOU ARE DELETING EDGE."
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="secondary_button_ek3"
+				 AbsoluteLayout.LayoutBounds="38,600,284,52"
+				 >
+
+				<Image x:Name="rectangle_5_ek9"
+					Source="rectangle_5_ek9.png"
+					AbsoluteLayout.LayoutBounds="0,0,284,52" />
+				<Label x:Name="not_delete"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="50,9,184,40"
+					Text="NOT DELETE"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_126_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119_ek11"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<Image x:Name="rectangle_8_ek19"
+						Source="rectangle_8_ek19.png"
+						AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+					<AbsoluteLayout x:Name="group_44_ek11"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion___white_icon___arrows_ek4"
+							Source="cyblion___white_icon___arrows_ek4.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104_ek18"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___white_ek3"
+						Source="cyblion_logo_name___white_ek3.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___white_ek5"
+						Source="cyblion_logo_icon___white_ek5.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="delete___small"
+				 AbsoluteLayout.LayoutBounds="135,676,90,35"
+				 >
+
+				<Label x:Name="delete_ek1"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ededed"
+					AbsoluteLayout.LayoutBounds="-3,-4,95,40"
+					Text="DELETE"
+				 />
+				<Image x:Name="line_13"
+					Source="line_13.png"
+					AbsoluteLayout.LayoutBounds="14,34,62,2" />
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

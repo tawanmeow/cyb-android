@@ -1,0 +1,128 @@
+<ContentPage x:Class="SEALMobile.create_project_1"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="create_project___1">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__create_project___1"
+				Color="#000000"
+				AbsoluteLayout.LayoutBounds="0,0,360,760" />
+			<Label x:Name="create_project"
+				FontFamily="Red Hat Display"
+				FontAttributes="Bold"
+				FontSize="24"
+				TextColor="#ffffff"
+				AbsoluteLayout.LayoutBounds="38,75,143,78"
+				Text="CREATE
+PROJECT"
+			 />
+
+			<AbsoluteLayout x:Name="text_field"
+				 AbsoluteLayout.LayoutBounds="38,197,284,62"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_2"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+					<Image x:Name="line_2"
+						Source="line_2.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+					<Label x:Name="name"
+						FontFamily="Red Hat Display"
+						Opacity="0.5"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,-4,78,40"
+						Text="NAME"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="project_name"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,-4,121,24"
+					Text="PROJECT NAME"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_12"
+				 AbsoluteLayout.LayoutBounds="38,291,284,62"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_2_ek1"
+					 AbsoluteLayout.LayoutBounds="0,28,284,34"
+					 >
+
+					<Image x:Name="line_2_ek1"
+						Source="line_2_ek1.png"
+						AbsoluteLayout.LayoutBounds="0,34,284,1" />
+					<Label x:Name="details"
+						FontFamily="Red Hat Display"
+						Opacity="0.5"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,-4,106,40"
+						Text="DETAILS"
+					 />
+				</AbsoluteLayout>
+
+				<Label x:Name="description"
+					FontFamily="Red Hat Display"
+					FontSize="12"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,-4,106,24"
+					Text="DESCRIPTION"
+				 />
+			</AbsoluteLayout>
+
+			<Image x:Name="cyblion___white_icon___arrows"
+				Source="cyblion___white_icon___arrows.png"
+				AbsoluteLayout.LayoutBounds="38,18,32,32" />
+
+			<AbsoluteLayout x:Name="secondary_button"
+				 AbsoluteLayout.LayoutBounds="38,593,284,52"
+				 >
+
+				<BoxView x:Name="rectangle_5"
+					CornerRadius="26"
+					Color="#09a8ea"
+					AbsoluteLayout.LayoutBounds="0,0,286,54" />
+				<Label x:Name="create"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="50,9,184,40"
+					Text="CREATE"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_100"
+				 AbsoluteLayout.LayoutBounds="186,14,136,40"
+				 >
+
+				<Image x:Name="cyblion_logo_name___white"
+					Source="cyblion_logo_name___white.png"
+					AbsoluteLayout.LayoutBounds="27,7,109,26" />
+				<Image x:Name="cyblion_logo_icon___white"
+					Source="cyblion_logo_icon___white.png"
+					AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

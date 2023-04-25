@@ -1,0 +1,276 @@
+<ContentPage x:Class="SEALMobile.3_2_1_3__key_gen___completed"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="3_2_1_3__key_gen___completed">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_37_ek1"
+				 AbsoluteLayout.LayoutBounds="38,79,284,105"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_27_ek7"
+					 AbsoluteLayout.LayoutBounds="0,0,165,105"
+					 >
+
+					<Label x:Name="project_a_ek10"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="12"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,85,147,24"
+						Text="Project A"
+					 />
+
+					<AbsoluteLayout x:Name="group_26_ek7"
+						 AbsoluteLayout.LayoutBounds="0,0,165,73"
+						 >
+
+						<Image x:Name="line_11_ek9"
+							Source="line_11_ek9.png"
+							AbsoluteLayout.LayoutBounds="1,72,62,2.5" />
+						<Label x:Name="keys_generator_ek1"
+							FontFamily="Red Hat Display"
+							FontAttributes="Bold"
+							FontSize="24"
+							TextColor="#ffffff"
+							AbsoluteLayout.LayoutBounds="0,-4,182,78"
+							Text="KEYS
+GENERATOR"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+				<Image x:Name="cyblion___white_icon___keys_ek1"
+					Source="cyblion___white_icon___keys_ek1.png"
+					AbsoluteLayout.LayoutBounds="222,0,62,62" />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="secondary_button_ek8"
+				 AbsoluteLayout.LayoutBounds="38,593,284,52"
+				 >
+
+				<Image x:Name="rectangle_5_ek14"
+					Source="rectangle_5_ek14.png"
+					AbsoluteLayout.LayoutBounds="0,0,284,52" />
+				<Label x:Name="generated"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="50,9,184,40"
+					Text="GENERATED"
+				 />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_38_ek1"
+				 AbsoluteLayout.LayoutBounds="38,225,284,256"
+				 >
+
+
+				<AbsoluteLayout x:Name="choice_box_ek3"
+					 AbsoluteLayout.LayoutBounds="0,196,284,60"
+					 >
+
+					<Image x:Name="rectangle_11_ek3"
+						Source="rectangle_11_ek3.png"
+						AbsoluteLayout.LayoutBounds="0,0,284,60" />
+					<Image x:Name="ellipse_1_ek3"
+						Source="ellipse_1_ek3.png"
+						AbsoluteLayout.LayoutBounds="16,18,24,24" />
+					<Label x:Name="large_ek1"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="74,13,151,40"
+						Text="LARGE"
+					 />
+					<Image x:Name="cyblion___white_icon___small_context_ek3"
+						Source="cyblion___white_icon___small_context_ek3.png"
+						AbsoluteLayout.LayoutBounds="222,13,35,35" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="choice_box_ek4"
+					 AbsoluteLayout.LayoutBounds="0,116,284,60"
+					 >
+
+					<Image x:Name="rectangle_11_ek4"
+						Source="rectangle_11_ek4.png"
+						AbsoluteLayout.LayoutBounds="0,0,284,60" />
+					<Image x:Name="ellipse_1_ek4"
+						Source="ellipse_1_ek4.png"
+						AbsoluteLayout.LayoutBounds="16,18,24,24" />
+					<Label x:Name="medium_ek1"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="74,13,151,40"
+						Text="MEDIUM"
+					 />
+					<Image x:Name="cyblion___white_icon___small_context_ek4"
+						Source="cyblion___white_icon___small_context_ek4.png"
+						AbsoluteLayout.LayoutBounds="222,13,35,35" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="choice_box_ek5"
+					 AbsoluteLayout.LayoutBounds="0,36,284,60"
+					 >
+
+					<Image x:Name="rectangle_11_ek5"
+						Source="rectangle_11_ek5.png"
+						AbsoluteLayout.LayoutBounds="0,0,284,60" />
+					<Image x:Name="ellipse_1_ek5"
+						Source="ellipse_1_ek5.png"
+						AbsoluteLayout.LayoutBounds="16,18,24,24" />
+					<Label x:Name="small_ek1"
+						FontFamily="Red Hat Display"
+						FontAttributes="Bold"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="74,13,151,40"
+						Text="SMALL"
+					 />
+					<Image x:Name="cyblion___white_icon___small_context_ek5"
+						Source="cyblion___white_icon___small_context_ek5.png"
+						AbsoluteLayout.LayoutBounds="222,13,35,35" />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_11_ek3"
+					 AbsoluteLayout.LayoutBounds="0,0,165,16"
+					 >
+
+					<Label x:Name="choose_context_size_ek1"
+						FontFamily="Red Hat Display"
+						FontSize="12"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="0,-4,176,24"
+						Text="CHOOSE CONTEXT SIZE"
+					 />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_90"
+				 AbsoluteLayout.LayoutBounds="76,547,208,26"
+				 >
+
+				<Label x:Name="already_generated"
+					FontFamily="Red Hat Display"
+					FontAttributes="Bold"
+					HorizontalTextAlignment="Center"
+					FontSize="16"
+					TextColor="#09a8ea"
+					AbsoluteLayout.LayoutBounds="35,-1,175,32"
+					Text="Already Generated"
+				 />
+				<Image x:Name="cyblion___sky_icon___checked_ek1"
+					Source="cyblion___sky_icon___checked_ek1.png"
+					AbsoluteLayout.LayoutBounds="0,0,26,26" />
+			</AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="group_127"
+				 AbsoluteLayout.LayoutBounds="0,0,360,60"
+				 >
+
+
+				<AbsoluteLayout x:Name="group_119_ek16"
+					 AbsoluteLayout.LayoutBounds="0,0,360,60"
+					 >
+
+					<Image x:Name="rectangle_8_ek24"
+						Source="rectangle_8_ek24.png"
+						AbsoluteLayout.LayoutBounds="-9,-6,378,78" />
+
+					<AbsoluteLayout x:Name="group_44_ek16"
+						 AbsoluteLayout.LayoutBounds="38,15,32,32"
+						 >
+
+						<Image x:Name="cyblion___white_icon___arrows_ek9"
+							Source="cyblion___white_icon___arrows_ek9.png"
+							AbsoluteLayout.LayoutBounds="0,0,32,32" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="group_104_ek23"
+					 AbsoluteLayout.LayoutBounds="186,10,136,40"
+					 >
+
+					<Image x:Name="cyblion_logo_name___white_ek8"
+						Source="cyblion_logo_name___white_ek8.png"
+						AbsoluteLayout.LayoutBounds="27,7,109,26" />
+					<Image x:Name="cyblion_logo_icon___white_ek10"
+						Source="cyblion_logo_icon___white_ek10.png"
+						AbsoluteLayout.LayoutBounds="0,0,26.7,40" />
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+
+
+
+			<AbsoluteLayout x:Name="group_1"
+				 AbsoluteLayout.LayoutBounds="-5369,-3871,250,250"
+				 >
+
+				<Image x:Name="rectangle_4"
+					Source="rectangle_4.png"
+					AbsoluteLayout.LayoutBounds="-15,-9,280,280" />
+				<Image x:Name="cyblion_logo_icon___main_ek18"
+					Source="cyblion_logo_icon___main_ek18.png"
+					AbsoluteLayout.LayoutBounds="63,45,123.21,160" />
+			</AbsoluteLayout>
+
+			<Image x:Name="dashboard_android"
+				Source="dashboard_android.png"
+				AbsoluteLayout.LayoutBounds="-198,6515,383,683" />
+			<Image x:Name="dashboard_android2"
+				Source="dashboard_android2.png"
+				AbsoluteLayout.LayoutBounds="-1118,7279,382,681" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

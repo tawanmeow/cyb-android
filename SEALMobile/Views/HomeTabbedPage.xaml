@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SEALMobile.Views;assembly=SEALMobile"
+             x:Class="SEALMobile.Views.HomeTabbedPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             BarBackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False"
+             
+             >
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+
+            <Image Source="cyblion___neo_logo_horizontal___main.png" />
+            <!--<Image Source="cyblion_logo_name___main.png" />-->
+
+        </StackLayout>
+
+    </NavigationPage.TitleView>
+
+
+    <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        
+        <!--<local:ProjectPage/>-->
+        <!--<local:EdgesListPage/>-->
+        <!--<local:DashboardPage/>-->
+        <!--<local:ProfilePage/>-->
+    </TabbedPage.Children>
+</TabbedPage>
